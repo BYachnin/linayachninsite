@@ -227,11 +227,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-16 h3{
 	font-size: 20px;
 }
+#bloc-16 p{
+	font-size: 16px;
+}
 #bloc-17 h2{
 	font-size: 40px;
 }
 #bloc-17 h3{
 	font-size: 20px;
+}
+#bloc-17 p{
+	font-size: 16px;
 }
 #bloc-18 h2{
 	font-size: 40px;
@@ -333,11 +339,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-42 h3{
 	font-size: 20px;
 }
+#bloc-42 p{
+	font-size: 16px;
+}
 #bloc-43 h2{
 	font-size: 40px;
 }
 #bloc-43 h3{
 	font-size: 20px;
+}
+#bloc-43 p{
+	font-size: 16px;
 }
 #bloc-44 h2{
 	font-size: 40px;
