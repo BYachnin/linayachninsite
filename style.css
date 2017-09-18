@@ -414,7 +414,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }	
 
 #bloc-exhibition-mobile {
-	
+	background-size: 100% 200%;
 }
 
 /* = NavBar
