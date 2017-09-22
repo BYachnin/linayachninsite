@@ -1234,6 +1234,28 @@ subtitle{
 	background-image:url("img/Sundown_20170912.jpg");
 }
 
+/* Image Handling */
+img.landscape {
+	width: 229px;
+	height: 151px;
+}
+
+img.portrait {
+	width: 229px;
+	height: 329px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	img.landscape {
+		width: 145px;
+		height: 97px;
+	}
+	
+	img.portrait {
+		width: 145px;
+		height: 228px;
+}
 
 
 /* = Mobile adjustments 
