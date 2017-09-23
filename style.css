@@ -366,13 +366,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 16px;
 }
 
-#bloc-exhibition-main {
+#bloc-index-exhibition-desktop {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
-#bloc-exhibition-main h2{
+#bloc-index-exhibition-desktop h2{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 90px;
@@ -381,7 +381,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin-right: auto;
 }	
 
-#bloc-exhibition-mobile {
+#bloc-index-exhibition-mobile {
 	background-size: 100% 200%;
 }
 
