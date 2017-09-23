@@ -297,13 +297,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-about-soloshows h2{
 	font-size: 35px;
-
 }
 #bloc-about-soloshows p{
 	font-size: 16px;
 }
 #bloc-about-groupshows h2{
 	font-size: 35px;
+}
+#bloc-about-groupshows p{
+	font-size: 16px;
 }
 #bloc-about-gallerybanner-desktop h1{
 	font-weight: 400;
