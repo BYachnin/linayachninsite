@@ -200,21 +200,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 25px;
 	line-height: 30px;
 }
-#bloc-florals-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
+
 #bloc-florals-banner-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
 	font-size: 60px;
 }
-#bloc-contact-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
+
 #bloc-contact-banner-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
@@ -224,16 +216,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 50px;
 	font-size: 30px;
 }
-#bloc-exhibition-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
-#bloc-about-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
+
 #bloc-exhibition-banner-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
@@ -256,11 +239,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-exhibition-announce-mobile p{
 	font-size: 30px;
 }
-#bloc-about-cv-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
+
 #bloc-about-cv-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
@@ -278,11 +257,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-about-groupshows p{
 	font-size: 16px;
 }
-#bloc-about-gallerybanner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
 #bloc-about-gallerybanner-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
@@ -291,20 +265,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-about-location p{
 	font-size: 25px;
 }
-#bloc-landscapes-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
-}
 #bloc-landscapes-banner-mobile h1{
 	font-weight: 400;
 	font-family: Helvetica;
 	font-size: 50px;
-}
-#bloc-abstracts-banner-desktop h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 80px;
 }
 #bloc-abstracts-banner-mobile h1{
 	font-weight: 400;
@@ -1142,6 +1106,12 @@ subtitle{
 }
 .painting-text p{
 	font-size: 16px;
+}
+
+.banner-desktop h1{
+	font-weight: 400;
+	font-family: Helvetica;
+	font-size: 80px;
 }
 
 /* Image Handling */
