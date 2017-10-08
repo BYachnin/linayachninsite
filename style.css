@@ -201,32 +201,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 30px;
 }
 
-#bloc-florals-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 60px;
-}
-
-#bloc-contact-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 60px;
-}
 #bloc-contact-form p{
 	line-height: 50px;
 	font-size: 30px;
 }
 
-#bloc-exhibition-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 50px;
-}
-#bloc-about-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 50px;
-}
 #bloc-about-statement-desktop p{
 	font-size: 25px;
 }
@@ -240,11 +219,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 30px;
 }
 
-#bloc-about-cv-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 50px;
-}
 #bloc-about-soloshows h2{
 	font-size: 35px;
 }
@@ -257,23 +231,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-about-groupshows p{
 	font-size: 16px;
 }
-#bloc-about-gallerybanner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 50px;
-}
 #bloc-about-location p{
 	font-size: 25px;
-}
-#bloc-landscapes-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 50px;
-}
-#bloc-abstracts-banner-mobile h1{
-	font-weight: 400;
-	font-family: Helvetica;
-	font-size: 60px;
 }
 #bloc-index-exhibition-desktop {
 	margin-left: auto;
@@ -1108,6 +1067,12 @@ subtitle{
 .banner-desktop h1{
 	font-family: Helvetica;
 	font-size: 80px;
+}
+
+.banner-mobile h1{
+	font-weight: 400;
+	font-family: Helvetica;
+	font-size: 50px;
 }
 
 /* Image Handling */
