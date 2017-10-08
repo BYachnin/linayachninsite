@@ -764,7 +764,7 @@ subtitle{
 }
 .dropdown{
 }
-..list-container{
+.list-container{
 	width:706px;
 	text-align:left;
 }
@@ -883,7 +883,7 @@ subtitle{
 
 /* Bloc image backgrounds */
 
-}.bg-highway{
+.bg-highway{
 	background-image:url("img/highway.jpg");
 }
 .bg-field{
