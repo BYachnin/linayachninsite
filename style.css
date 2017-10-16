@@ -1248,63 +1248,89 @@ img.portrait {
 	   width: 180px;
 	   height: 320px;
     }
-}@media (max-width: 768px){
-	a, .mobile a{
-	text-shadow:0px 0px 0px rgba(0,0,0,0.0);
-	float:none;
-	display:block;
-	overflow:visible;
-	font-family:"helvetica";
-	font-weight:300;
-	font-size:22px;
 }
-.mainmenu-floral, .mobile .mainmenu-floral{
-	text-align:center;
-}
-a, .mobile .a{
-}
-.mainmenutext, .mobile .mainmenutext{
-	text-align:center;
-	letter-spacing:1px;
-	width:650px;
-	height:150px;
-}
-.mm-links-mobile, .mobile .mm-links-mobile{
+
+@media (max-width: 768px)
+{
+	a, .mobile a
+	{
+		text-shadow:0px 0px 0px rgba(0,0,0,0.0);
+		float:none;
+		display:block;
+		overflow:visible;
+		font-family:"helvetica";
+		font-weight:300;
+		font-size:22px;
+	}
+	
+	.mainmenu-floral, .mobile .mainmenu-floral
+	{
+		text-align:center;
+	}
+
+	a, .mobile .a
+	{
+	}
+	
+	.mainmenutext, .mobile .mainmenutext
+	{
+		text-align:center;
+		letter-spacing:1px;
+		width:650px;
+		height:150px;
+	}
+.mm-links-mobile, .mobile .mm-links-mobile
+	{
 	font-size:30px;
 	font-weight:bold;
 	text-shadow:1px 2px 6px rgba(2,2,2,0.8);
 	margin-left:20px;
+	}
+.link-formatting, .mobile .link-formatting
+	{
+		font-size:17px;
+	}
+.row-move-down, .mobile .row-move-down
+	{
+		padding-top:10px;
+	}
 }
-.link-formatting, .mobile .link-formatting{
-	font-size:17px;
-}
-.row-move-down, .mobile .row-move-down{
-	padding-top:10px;
-}
-@media (max-width: 420px){
-	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+@media (max-width: 420px)
+{
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a
+	{
 	text-align:center;
 	background-position:left center;
 	float:none;
 	border-style:none;
-}
-a{
+	}
+
+	a
+	{
 	font-family:"helvetica";
 	font-weight:300;
 	font-size:20px;
-}
-label{
+	}
+
+	label
+	{
 	font-size:30px;
-}
-.subtitle{
-}
-.list-dimensions{
+	}
+
+	.subtitle
+	{
+	}
+
+	.list-dimensions
+	{
 	text-align:center;
 	font-weight:bold;
-}
-.mm-links-c{
-}
-.mm-links-mobile{
+	}
+	.mm-links-c
+	{
+	}
+	.mm-links-mobile
+	{
 	font-size:30px;
 	font-weight:bold;
 	text-shadow:1px 3px 6px #000000;
@@ -1313,6 +1339,6 @@ label{
 	display:block;
 	overflow:visible;
 	margin-left:20px;
-}
+	}
 }
 
