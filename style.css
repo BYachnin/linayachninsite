@@ -283,7 +283,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .navbar-toggle{
 	margin: 10px 10px 0 0;
-	border: 0px;
+	border: 0;
 }
 .navbar-toggle:hover{
 	background:transparent!important;
@@ -854,29 +854,8 @@ subtitle{
 .bg-valley{
 	background-image:url("img/valley.jpg");
 }
-.bg-field{
-	background-image:url("img/field.jpg");
-}
-.bg-valley{
-	background-image:url("img/valley.jpg");
-}
-.bg-highway{
-	background-image:url("img/highway.jpg");
-}
-.bg-highway{
-	background-image:url("img/highway.jpg");
-}
-.bg-valley{
-	background-image:url("img/valley.jpg");
-}
 .bg-citysky{
 	background-image:url("img/citysky.jpg");
-}
-.bg-valley{
-	background-image:url("img/valley.jpg");
-}
-.bg-highway{
-	background-image:url("img/highway.jpg");
 }
 .bg-14585592-10101387148945095-1005077133-o{
 	background-image:url("img/14585592_10101387148945095_1005077133_o.jpg");
@@ -893,17 +872,8 @@ subtitle{
 .bg-IMG-20151025-165811{
 	background-image:url("img/IMG_20151025_165811.jpg");
 }
-.bg-IMG-20151025-165811{
-	background-image:url("img/IMG_20151025_165811.jpg");
-}
-.bg-IMG-0851-web{
-	background-image:url("img/IMG_0851_web.jpg");
-}
 .bg-trillium{
 	background-image:url("img/trillium.jpg");
-}
-.bg-IMG-20160916-123910{
-	background-image:url("img/IMG_20160916_123910.jpg");
 }
 .bg-IMG-3191{
 	background-image:url("img/IMG_3191.jpg");
@@ -919,9 +889,6 @@ subtitle{
 }
 .bg-Poppies-bckgrnd{
 	background-image:url("img/Poppies_bckgrnd.jpg");
-}
-.bg-High-Falls-bckgrnd{
-	background-image:url("img/High_Falls_bckgrnd.jpg");
 }
 .bg-Coastal-Sky-III-bckgrnd{
 	background-image:url("img/Coastal_Sky_III_bckgrnd.jpg");
@@ -941,53 +908,14 @@ subtitle{
 .bg-Bougainvillea{
 	background-image:url("img/Bougainvillea.jpg");
 }
-.bg-Coastal-Sky-III-bckgrnd{
-	background-image:url("img/Coastal_Sky_III_bckgrnd.jpg");
-}
-.bg-View-of-the-Ottawa-River-bckgrnd{
-	background-image:url("img/View_of_the_Ottawa_River_bckgrnd.jpg");
-}
 .bg-Coastal-Sky-III{
 	background-image:url("img/Coastal_Sky_III.jpg");
 }
 .bg-Sunrise{
 	background-image:url("img/Sunrise.jpg");
 }
-.bg-Coastal-Sky-III-bckgrnd{
-	background-image:url("img/Coastal_Sky_III_bckgrnd.jpg");
-}
-.bg-Airport-Reflections{
-	background-image:url("img/Airport_Reflections.jpg");
-}
-.bg-Coastal-Sky-III-bckgrnd{
-	background-image:url("img/Coastal_Sky_III_bckgrnd.jpg");
-}
-.bg-View-of-the-Ottawa-River-bckgrnd{
-	background-image:url("img/View_of_the_Ottawa_River_bckgrnd.jpg");
-}
-.bg-Coastal-Sky-III{
-	background-image:url("img/Coastal_Sky_III.jpg");
-}
 .bg-Coastal-Sky{
 	background-image:url("img/Coastal_Sky.jpg");
-}
-.bg-High-Falls-bckgrnd{
-	background-image:url("img/High_Falls_bckgrnd.jpg");
-}
-.bg-Before-the-Storm{
-	background-image:url("img/Before_the_Storm.jpg");
-}
-.bg-Trilliums-bckgrnd{
-	background-image:url("img/Trilliums_bckgrnd.jpg");
-}
-.bg-Airport-Reflections{
-	background-image:url("img/Airport_Reflections.jpg");
-}
-.bg-High-Falls-bckgrnd{
-	background-image:url("img/High_Falls_bckgrnd.jpg");
-}
-.bg-Airport-Reflections{
-	background-image:url("img/Airport_Reflections.jpg");
 }
 .bg-poppies-back2{
 	background-image:url("img/poppies_back2.jpg");
@@ -998,38 +926,11 @@ subtitle{
 .bg-Airport-Reflections-back2{
 	background-image:url("img/Airport-Reflections-back2.jpg");
 }
-.bg-Poppies{
-	background-image:url("img/Poppies.jpg");
-}
-.bg-coastalsky-back2{
-	background-image:url("img/coastalsky_back2.jpg");
-}
 .bg-Autumn-Wonder{
 	background-image:url("img/Autumn_Wonder.jpg");
 }
-.bg-Airport-Reflections{
-	background-image:url("img/Airport_Reflections.jpg");
-}
-.bg-Before-the-Storm{
-	background-image:url("img/Before_the_Storm.jpg");
-}
 .bg-Greenstone-Trail-NZ{
 	background-image:url("img/Greenstone_Trail_NZ.jpg");
-}
-.bg-Coastal-Sky{
-	background-image:url("img/Coastal_Sky.jpg");
-}
-.bg-Coastal-Sky-III-bckgrnd{
-	background-image:url("img/Coastal_Sky_III_bckgrnd.jpg");
-}
-.bg-Trilliums-bckgrnd{
-	background-image:url("img/Trilliums_bckgrnd.jpg");
-}
-.bg-High-Falls-bckgrnd{
-	background-image:url("img/High_Falls_bckgrnd.jpg");
-}
-.bg-View-of-the-Ottawa-River-bckgrnd{
-	background-image:url("img/View_of_the_Ottawa_River_bckgrnd.jpg");
 }
 .bg-After-the-Storm{
 	background-image:url("img/After_the_Storm.jpg");
@@ -1254,7 +1155,7 @@ img.portrait {
 {
 	a, .mobile a
 	{
-		text-shadow:0px 0px 0px rgba(0,0,0,0.0);
+		text-shadow:0 0 0 rgba(0,0,0,0.0);
 		float:none;
 		display:block;
 		overflow:visible;
@@ -1267,11 +1168,6 @@ img.portrait {
 	{
 		text-align:center;
 	}
-
-	a, .mobile .a
-	{
-	}
-	
 	.mainmenutext, .mobile .mainmenutext
 	{
 		text-align:center;
@@ -1311,23 +1207,14 @@ img.portrait {
 	font-weight:300;
 	font-size:20px;
 	}
-
 	label
 	{
 	font-size:30px;
 	}
-
-	.subtitle
-	{
-	}
-
 	.list-dimensions
 	{
 	text-align:center;
 	font-weight:bold;
-	}
-	.mm-links-c
-	{
 	}
 	.mm-links-mobile
 	{
