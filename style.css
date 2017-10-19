@@ -92,6 +92,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bg-l-edge{
 	background: left no-repeat;
 }
+.bg-r-edge{
+	background: right no-repeat;
+}
 
 
 /* Background Effects */
