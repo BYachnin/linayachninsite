@@ -308,8 +308,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		position:absolute;
 		top:50%;
 		right:20px;
-		transform:translate(0, -50%);
 		-webkit-transform:translateY(-50%);
+		-o-transform:translateY(-50%);
+		-moz-transform:translateY(-50%);
+		-ms-transform:translateY(-50%);
+		transform:translate(0, -50%);
 	}
 	.nav > li .dropdown-menu a,.nav > li .dropdown-menu a:hover{
 		color:#484848;
@@ -522,12 +525,16 @@ a[data-lightbox]:hover::before{
 	z-index: 1;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 a[data-lightbox]:hover img{
 	opacity: 0.6;
 	-webkit-animation-fill-mode: none;
+	-moz-animation-fill-mode: none;
 	animation-fill-mode:none;
 }
 #lightbox-modal .modal-dialog{
@@ -1014,9 +1021,11 @@ img.portrait {
     }
     .site-navigation{
 	   position:inherit;
-	   transform:none;
 	   -webkit-transform:none;
 	   -ms-transform:none;
+	   -o-transform:none;
+	   -moz-transform:none;
+	   transform:none;
     }  
     .nav > li{
         margin-top: 0;
@@ -1055,6 +1064,7 @@ img.portrait {
         padding:0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
+        -moz-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img{
