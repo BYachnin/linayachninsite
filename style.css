@@ -192,36 +192,21 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-index-titlebanner-desktop h1{
-	font-weight: 300;
-	font-family: Helvetica;
-	font-size: 30px;
 	line-height: 40px;
 }
 #bloc-index-titlebanner-mobile h1{
-	font-weight: 300;
-	font-family: Helvetica;
 	font-size: 25px;
 	line-height: 30px;
 }
-
 #bloc-contact-form p{
 	line-height: 50px;
-	font-size: 30px;
 }
-
 #bloc-about-statement-desktop p{
 	font-size: 25px;
-}
-#bloc-about-statement-mobile p{
-	font-size: 30px;
 }
 #bloc-exhibition-announce-desktop p{
 	font-size: 25px;
 }
-#bloc-exhibition-announce-mobile p{
-	font-size: 30px;
-}
-
 #bloc-about-soloshows h2{
 	font-size: 35px;
 }
@@ -240,9 +225,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-index-exhibition-desktop {
 	margin-left: auto;
 	margin-right: auto;
-}
-#bloc-index-exhibition-mobile {
-    background-size: 100% 200%;
 }
 
 /* = NavBar
