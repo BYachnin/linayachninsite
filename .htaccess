@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "by-devel"
+AuthUserFile "/home/linaykqv/.htpasswds/public_html/by-devel/passwd"
+require valid-user
