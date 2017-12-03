@@ -1195,3 +1195,6 @@ img.portrait {
 	}
 }
 
+.hidden-all{
+	display:none!important;
+	}
