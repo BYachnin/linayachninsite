@@ -724,6 +724,10 @@ a{
 .row-move-down{
 	padding-top:20px;
 }
+.no-horiz-padding{
+	padding-left:0;
+	padding-right:0;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
