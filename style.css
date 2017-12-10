@@ -643,15 +643,6 @@ a{
 	width:800px;
 	height:200px;
 }
-.mm-links-r{
-	font-size:40px;
-	text-align:center;
-	font-weight:bold;
-	color:#1C243C;
-	text-shadow:1px 2px 6px rgba(2,2,2,0.8);
-	box-shadow:0 0 0 rgba(2,2,2,0.0);
-	margin-top:30px;
-}
 .yachnin-sig{
 	display:block;
 	overflow:visible;
@@ -666,24 +657,14 @@ a{
 	overflow:visible;
 	float:none;
 }
-.mm-links-c{
+.mm-links{
 	text-align:center;
 	font-weight:bold;
 	color:#FEFFFF;
 	font-family:"helvetica";
 	text-shadow:1px 2px 6px rgba(2,2,2,0.8);
 	margin-top:30px;
-	font-size:38px;
-}
-.mm-links-l{
-	text-align:center;
-	font-size:40px;
-	font-family:"helvetica";
-	color:#FEFFFF;
-	font-weight:bold;
-	box-shadow:0 0 0 rgba(1,1,1,0.0);
-	text-shadow:1px 2px 6px rgba(2,2,2,0.8);
-	margin-top:30px;
+	font-size:35px;
 }
 .padding-footer{
 	padding-left:145px;
@@ -742,6 +723,10 @@ a{
 }
 .row-move-down{
 	padding-top:20px;
+}
+.no-horiz-padding{
+	padding-left:0;
+	padding-right:0;
 }
 
 /* = Colour
