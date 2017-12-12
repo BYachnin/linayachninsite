@@ -79,23 +79,24 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 
 /* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
+/* I have set to be on mobile size only */
+@media (max-width:767.9999999999px) {
+	.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+		-webkit-background-size: auto!important;
+		-moz-background-size: auto!important;
+		-o-background-size: auto!important;
+		background-size: auto!important;
+	}
+	.bg-b-edge{
+		background: bottom no-repeat;
+	}
+	.bg-l-edge{
+		background: left no-repeat;
+	}
+	.bg-r-edge{
+		background: right no-repeat;
+	}
 }
-.bg-b-edge{
-	background: bottom no-repeat;
-}
-.bg-l-edge{
-	background: left no-repeat;
-}
-.bg-r-edge{
-	background: right no-repeat;
-}
-
 
 /* Background Effects */
 
@@ -900,6 +901,17 @@ a{
 .banner-mobile h1{
 	font-family: Helvetica;
 	font-size: 50px;
+}
+
+.banner h1{
+	font-family: Helvetica;
+	font-size: 80px;
+}
+
+@media (max-width:767.9999999999px) {
+	.banner h1{
+		font-size: 50px;
+	}
 }
 
 /* Image Handling */
