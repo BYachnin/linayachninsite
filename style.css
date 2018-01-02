@@ -79,23 +79,24 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 
 /* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
+/* I have set to be on mobile size only */
+@media (max-width:767.9999999999px) {
+	.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+		-webkit-background-size: auto!important;
+		-moz-background-size: auto!important;
+		-o-background-size: auto!important;
+		background-size: auto!important;
+	}
+	.bg-b-edge{
+		background: bottom no-repeat;
+	}
+	.bg-l-edge{
+		background: left no-repeat;
+	}
+	.bg-r-edge{
+		background: right no-repeat;
+	}
 }
-.bg-b-edge{
-	background: bottom no-repeat;
-}
-.bg-l-edge{
-	background: left no-repeat;
-}
-.bg-r-edge{
-	background: right no-repeat;
-}
-
 
 /* Background Effects */
 
@@ -201,10 +202,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-contact-form p{
 	line-height: 50px;
 }
-#bloc-about-statement-desktop p{
+#bloc-about-statement p{
 	font-size: 25px;
 }
-#bloc-exhibition-announce-desktop p{
+#bloc-exhibition-announce p, #bloc-exhibition-announce a{
 	font-size: 25px;
 }
 #bloc-about-soloshows h2{
@@ -749,12 +750,6 @@ a{
 .bgc-baby-pink{
 	background-color:#EECBC0;
 }
-.bgc-white-3{
-	background-color:#FEFFFF;
-}
-.bgc-white-4{
-	background-color:#FEFFFF;
-}
 /* Text colour styles */
 
 .tc-white{
@@ -779,12 +774,6 @@ a{
 	color:#FEFFFF!important;
 }
 .ltc-white:hover{
-	color:#cbcccc!important;
-}
-.ltc-white-2{
-	color:#FEFFFF!important;
-}
-.ltc-white-2:hover{
 	color:#cbcccc!important;
 }
 /* Icon colour styles */
@@ -904,14 +893,15 @@ a{
 	font-size: 16px;
 }
 
-.banner-desktop h1{
+.banner h1{
 	font-family: Helvetica;
 	font-size: 80px;
 }
 
-.banner-mobile h1{
-	font-family: Helvetica;
-	font-size: 50px;
+@media (max-width:767.9999999999px) {
+	.banner h1{
+		font-size: 50px;
+	}
 }
 
 /* Image Handling */
