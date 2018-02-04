@@ -939,6 +939,10 @@ img.portrait {
 		max-height: 70vh; /*change to 70vh once overflow issue fixed*/
 		object-fit: cover;
 	}
+	
+	img.portrait {
+		max-width: 50vh;
+	}
 	/*
 	img.portrait {
 		width: 90%;
