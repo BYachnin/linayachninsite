@@ -49,7 +49,7 @@
 				</div>
 				<div class="navbar-collapse navbar-1 collapse">
 					<ul class="site-navigation nav navbar-nav list-dimensions">';
-	generatePageList($array, $curpage)
+	generatePageList($array, $curpage);
 	echo '					</ul>
 				</div>
 			</nav>
