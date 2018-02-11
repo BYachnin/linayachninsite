@@ -8,8 +8,8 @@
 	
 	//Generate a list from an array of page names and titles.
 	//Skip any pages in $skip, which by default will be the current page name.
-	$curpage = basename($_SERVER['PHP_SELF'], '.phtml'));
-	function generatePageList($list, $skip = array($curpage) {
+	$curpage = basename($_SERVER['PHP_SELF'], '.phtml');
+	function generatePageList($list, $skip = array($curpage) ) {
 		//Loop over all list items.
 		foreach ($list as $name => $title) {
 			//If the current list item name is in $skip, skip this item.
