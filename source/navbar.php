@@ -36,6 +36,7 @@
 		"contact" => "Contact"
 	);
 
+	//Generate the navbar HTML code.
 	echo '<!-- navbar.php -->
 	<!-- bloc-navbar-mobile -->
 	<div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
@@ -65,35 +66,9 @@
 					<a href="index"><img src="img/short-sig.jpg" class="img-responsive" width="254" alt="Lina Yachnin"/></a>
 				</div>
 				<div class="col-sm-8">
-					<ul class="list-unstyled list-horizontal-layout list-container">
-						<li>
-							<a href="index">Home</a>
-						</li>
-						<li>
-							<a href="exhibitions">Exhibitions</a>
-						</li>
-						<li>
-							<a href="about">About</a>
-						</li>
-						<li>
-							<a href="available_works">Available Works</a>
-						</li>
-						<li>
-							<a href="florals">Florals</a>
-						</li>
-						<li>
-							<a href="landscapes">Landscapes</a>
-						</li>
-						<li>
-							<a href="abstracts">Abstracts</a>
-						</li>
-						<li>
-							<a href="urbanscapes">Urbanscapes</a>
-						</li>
-						<li>
-							<a href="contact">Contact</a>
-						</li>
-					</ul>
+					<ul class="list-unstyled list-horizontal-layout list-container">' . "\n";
+	generatePageList($pageList, $curpage);
+	echo '					</ul>
 				</div>
 			</div>
 		</div>
@@ -108,35 +83,9 @@
 					<a href="index"><img src="img/short-sig.jpg" class="img-responsive center-block" width="261" alt="Lina Yachnin"/></a>
 				</div>
 				<div class="col-sm-6">
-					<ul class="list-unstyled list-horizontal-layout">
-						<li>
-							<a href="index">Home</a>
-						</li>
-						<li>
-							<a href="exhibitions">Exhibitions</a>
-						</li>
-						<li>
-							<a href="about">About</a>
-						</li>
-						<li>
-							<a href="available_works">Available Works</a>
-						</li>
-						<li>
-							<a href="florals">Florals</a>
-						</li>
-						<li>
-							<a href="landscapes">Landscapes</a>
-						</li>
-						<li>
-							<a href="abstracts">Abstracts</a>
-						</li>
-						<li>
-							<a href="urbanscapes">Urbanscapes</a>
-						</li>
-						<li>
-							<a href="contact">Contact</a>
-						</li>
-					</ul>
+					<ul class="list-unstyled list-horizontal-layout">' . "\n";
+	generatePageList($pageList, $curpage);
+	echo '					</ul>
 				</div>
 			</div>
 		</div>
