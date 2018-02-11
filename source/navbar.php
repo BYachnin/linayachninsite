@@ -1,4 +1,7 @@
 <?php
+	//Define the name of the current page as a single item array.
+	$curpage = array( basename($_SERVER['PHP_SELF'], '.phtml') );
+
 	//Generate the text for a single list item.
 	function addListItem($pageName, $pageTitle) {
 		echo '						<li>';
@@ -7,9 +10,8 @@
 	}
 	
 	//Generate a list from an array of page names and titles.
-	//Skip any pages in $skip, which by default will be the current page name.
-	$curpage = basename($_SERVER['PHP_SELF'], '.phtml');
-	function generatePageList($list, $skip = array($curpage) ) {
+	//Skip any pages in $skip.
+	function generatePageList($list, $skip) {
 		//Loop over all list items.
 		foreach ($list as $name => $title) {
 			//If the current list item name is in $skip, skip this item.
@@ -47,7 +49,7 @@
 				</div>
 				<div class="navbar-collapse navbar-1 collapse">
 					<ul class="site-navigation nav navbar-nav list-dimensions">';
-	generatePageList($array)
+	generatePageList($array, $curpage)
 	echo '					</ul>
 				</div>
 			</nav>
