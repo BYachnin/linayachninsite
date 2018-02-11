@@ -45,35 +45,9 @@
 					</button>
 				</div>
 				<div class="navbar-collapse navbar-1 collapse">
-					<ul class="site-navigation nav navbar-nav list-dimensions">
-						<li>
-							<a href="index">Home</a>
-						</li>
-						<li>
-							<a href="exhibitions">Exhibitions</a>
-						</li>
-						<li>
-							<a href="about">About</a>
-						</li>
-						<li>
-							<a href="available_works">Available Works</a>
-						</li>
-						<li>
-							<a href="florals">Florals</a>
-						</li>
-						<li>
-							<a href="landscapes">Landscapes</a>
-						</li>
-						<li>
-							<a href="abstracts">Abstracts</a>
-						</li>
-						<li>
-							<a href="urbanscapes">Urbanscapes</a>
-						</li>
-						<li>
-							<a href="contact">Contact</a>
-						</li>
-					</ul>
+					<ul class="site-navigation nav navbar-nav list-dimensions">';
+	generatePageList($array)
+	echo '					</ul>
 				</div>
 			</nav>
 		</div>
