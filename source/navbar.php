@@ -1,4 +1,38 @@
 <?php
+	//Generate the text for a single list item.
+	function addListItem($pageName, $pageTitle) {
+		echo '						<li>';
+		echo '							<a href="' . $pageName . '">' . $pageTitle . '</a>';
+		echo '						</li>';
+	}
+	
+	//Generate a list from an array of page names and titles.
+	//Skip any pages in $skip, which by default will be the current page name.
+	function generatePageList($list, $skip = array(basename($_SERVER['PHP_SELF'], '.phtml'))) {
+		//Loop over all list items.
+		foreach ($list as $name => $title) {
+			//If the current list item name is in $skip, skip this item.
+			if ( in_array($name, $skip) ) {
+				continue;
+			}
+			
+			//Generate the list text
+			addListItem($name, $title);
+		}
+	}
+	
+	$pageList = array(
+		"index" => "Home",
+		"exhibitions" => "Exhibitions",
+		"about" => "About",
+		"available_works" => "Available Works",
+		"florals" => "Florals",
+		"landscapes" => "Landscapes",
+		"abstracts" => "Abstracts",
+		"urbanscapes" => "Urbanscapes",
+		"contact" => "Contact"
+	);
+
 	echo '<!-- navbar.php -->
 	<!-- bloc-navbar-mobile -->
 	<div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
