@@ -4,9 +4,9 @@
 
 	//Generate the text for a single list item.
 	function addListItem($pageName, $pageTitle) {
-		echo '						<li>';
-		echo '							<a href="' . $pageName . '">' . $pageTitle . '</a>';
-		echo '						</li>';
+		echo "						<li>\n";
+		echo '							<a href="' . $pageName . '">' . $pageTitle . "</a>\n";
+		echo "						</li>\n";
 	}
 	
 	//Generate a list from an array of page names and titles.
@@ -48,8 +48,8 @@
 					</button>
 				</div>
 				<div class="navbar-collapse navbar-1 collapse">
-					<ul class="site-navigation nav navbar-nav list-dimensions">';
-	generatePageList($array, $curpage);
+					<ul class="site-navigation nav navbar-nav list-dimensions">' . "\n";
+	generatePageList($pageList, $curpage);
 	echo '					</ul>
 				</div>
 			</nav>
