@@ -36,60 +36,59 @@
 		"contact" => "Contact"
 	);
 
-	//Generate the navbar HTML code.
-	echo '<!-- navbar.php -->
-	<!-- bloc-navbar-mobile -->
-	<div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
-		<div class="container">
-			<nav class="navbar row">
-				<div class="navbar-header">
-					<a href="http://www.facebook.com/linayachninart/" class="icon-padding" target="_blank"><span class="fa fa-facebook icon-md pull-left"></span></a><a href="https://www.linkedin.com/in/lina-yachnin-54a9a28a" target="_blank"><span class="fa fa-linkedin icon-md pull-left"></span></a>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="navbar-collapse navbar-1 collapse">
-					<ul class="site-navigation nav navbar-nav list-dimensions">' . "\n";
-	generatePageList($pageList, $curpage);
-	echo '					</ul>
-				</div>
-			</nav>
-		</div>
+//Generate the navbar HTML code.?>
+<!-- navbar.php -->
+<!-- bloc-navbar-mobile -->
+<div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
+	<div class="container">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a href="http://www.facebook.com/linayachninart/" class="icon-padding" target="_blank"><span class="fa fa-facebook icon-md pull-left"></span></a><a href="https://www.linkedin.com/in/lina-yachnin-54a9a28a" target="_blank"><span class="fa fa-linkedin icon-md pull-left"></span></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse navbar-1 collapse">
+				<ul class="site-navigation nav navbar-nav list-dimensions">
+<?php generatePageList($pageList, $curpage);?>
+				</ul>
+			</div>
+		</nav>
 	</div>
-	<!-- bloc-navbar-mobile END -->
+</div>
+<!-- bloc-navbar-mobile END -->
 
-	<!-- bloc-navbar-desktop -->
-	<div class="bloc hidden-xs hidden-sm bgc-white l-bloc pad-top-nav" id="bloc-navbar-desktop">
-		<div class="container bloc-sm">
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="index"><img src="img/short-sig.jpg" class="img-responsive" width="254" alt="Lina Yachnin"/></a>
-				</div>
-				<div class="col-sm-8">
-					<ul class="list-unstyled list-horizontal-layout list-container">' . "\n";
-	generatePageList($pageList, $curpage);
-	echo '					</ul>
-				</div>
+<!-- bloc-navbar-desktop -->
+<div class="bloc hidden-xs hidden-sm bgc-white l-bloc pad-top-nav" id="bloc-navbar-desktop">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="index"><img src="img/short-sig.jpg" class="img-responsive" width="254" alt="Lina Yachnin"/></a>
+			</div>
+			<div class="col-sm-8">
+				<ul class="list-unstyled list-horizontal-layout list-container">
+<?php generatePageList($pageList, $curpage);?>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<!-- bloc-navbar-desktop END -->
+</div>
+<!-- bloc-navbar-desktop END -->
 
-	<!-- bloc-navbar-tablet -->
-	<div class="bloc hidden-xs hidden-lg hidden-md bgc-white l-bloc" id="bloc-navbar-tablet">
-		<div class="container bloc-sm">
-			<div class="row">
-				<div class="col-sm-6">
-					<a href="index"><img src="img/short-sig.jpg" class="img-responsive center-block" width="261" alt="Lina Yachnin"/></a>
-				</div>
-				<div class="col-sm-6">
-					<ul class="list-unstyled list-horizontal-layout">' . "\n";
-	generatePageList($pageList, $curpage);
-	echo '					</ul>
-				</div>
+<!-- bloc-navbar-tablet -->
+<div class="bloc hidden-xs hidden-lg hidden-md bgc-white l-bloc" id="bloc-navbar-tablet">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="index"><img src="img/short-sig.jpg" class="img-responsive center-block" width="261" alt="Lina Yachnin"/></a>
+			</div>
+			<div class="col-sm-6">
+				<ul class="list-unstyled list-horizontal-layout">
+<?php generatePageList($pageList, $curpage);?>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<!-- bloc-navbar-tablet END -->
-	<!-- END OF navbar.php -->';
-?>
+</div>
+<!-- bloc-navbar-tablet END -->
+<!-- END OF navbar.php -->
