@@ -730,6 +730,30 @@ a{
 	padding-right:0;
 }
 
+div.button-link{
+	border: 2px solid;
+	border-radius: 25px;
+	line-height: normal;
+}
+
+a.button-link{
+	line-height: normal;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 2px 6px rgba(150,150,150,0.8);
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+a.button-link:hover{
+	color:#999999!important;
+}
+@media (max-width: 767.9999999999px){
+	a.button-link{
+		font-size: 30px;
+	}
+}
+
 /* = Colour
 -------------------------------------------------------------- */
 
@@ -749,6 +773,9 @@ a{
 }
 .bgc-baby-pink{
 	background-color:#EECBC0;
+}
+.bgc-gray204{
+	background-color:#CCCCCC;
 }
 /* Text colour styles */
 
