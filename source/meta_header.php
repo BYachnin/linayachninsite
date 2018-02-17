@@ -1,3 +1,4 @@
+<?php include 'globals.php';?>
 <meta name="keywords" content="Ottawa watercolour oil artist paint painting art Canada landscape floral abstract for sale local Quebec Gatineau Outaouais affordable buy purchase order cheap gift present Galerie Old Chelsea gallery cadeau peinture artiste huile aquarelle fleurs abstrait dessin paysage abordable commander acheter Wakefield">
 	<meta name="description" content="Lina Yachnin is a Canadian oil & watercolour artist who paints landscapes, floral arrangements, and abstract images.">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
