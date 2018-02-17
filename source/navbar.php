@@ -24,18 +24,6 @@
 		}
 	}
 	
-	$pageList = array(
-		"index" => "Home",
-		"exhibitions" => "Exhibitions",
-		"about" => "About",
-		"available_works" => "Available Works",
-		"florals" => "Florals",
-		"landscapes" => "Landscapes",
-		"abstracts" => "Abstracts",
-		"urbanscapes" => "Urbanscapes",
-		"contact" => "Contact"
-	);
-
 //Generate the navbar HTML code.?>
 <!-- navbar.php -->
 <!-- bloc-navbar-mobile -->
