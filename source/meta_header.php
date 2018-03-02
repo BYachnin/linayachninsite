@@ -10,10 +10,6 @@
 	<link rel="stylesheet" href="./css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=helvetica&subset=latin,latin-ext'>
 	
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	
 	<meta property="og:image" content="http://www.linayachnin.com/img/lina_yachnin_facebook_profile.jpg"/>
 	<meta property="og:description" content="Lina Yachnin is a Canadian oil & watercolour artist who paints landscapes, floral arrangements, and abstract images."/>
 	<meta property="og:url" content="http://www.linayachin.com"/>
