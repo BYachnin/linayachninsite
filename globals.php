@@ -19,6 +19,7 @@
 		"contact" => "Contact"
 		);
 		
+	//Standard exhibition blurb.
 	$exhibition_std =
 		'The best time to get a "Lina Yachnin original" is at one of my exhibitions.  I typically have an exhibition every two years at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea,</a> and several more in the Ottawa region.<br/><br/>
 		See my <a href="about#bloc-about-cv" class="text-center" style="display: inline">CV</a> for past exhibitions, and check back here for news about upcoming exhibitions.  In the mean time, I always have work on display at a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a>';
