@@ -8,8 +8,8 @@
 	
 	//Standard exhibition blurb.
 	$exhibition_std =
-		'The best time to get a "Lina Yachnin original" is at one of my exhibitions.  I typically have an exhibition every two years at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea,</a> and several more in the Ottawa region.<br/><br/>
-		See my <a href="about#bloc-about-cv" class="text-center" style="display: inline">CV</a> for past exhibitions, and check back here for news about upcoming exhibitions.  In the mean time, I always have work on display at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a>';
+		'I typically have an exhibition every two years at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  My work is also sometimes shown at shows throughout the Ottawa region.<br/><br/>
+		See my <a href="about#bloc-about-cv" class="text-center" style="display: inline">CV</a> for a listing of past shows, and check back here for news about upcoming exhibitions.  In the mean time, I always have work on display and <a href="available_works" class="text-center" style="display: inline">available for purchase</a> at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a>';
 	
 	//Set $exhibition_text to $upcoming_text if $exhibition is flagged true.  Otherwise, use standard $exhibition_std.
 	//Also swap out the special title if NOT an exhibition.
