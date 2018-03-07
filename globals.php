@@ -1,6 +1,7 @@
 <?php
 	//Exhibition page related flags
 	$exhibition = false;	//Use special exhibition text
+	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Upcoming Exhibition: <i>Passerelle</i>";		//The title of the Exhibitions page.
 	$upcoming_text = 
 		'<i>Passerelle</i>, or <i>Gateway</i>, is a show representing my latest journeys along the coast of Spain, Sweden and the beautiful interior of Quebec. Whether they be landscapes, cityscapes or abstracts, I hope to communicate a strong emotional response through the common elements of colour, composition and design. Hoping to inspire you, the viewer, the way these places have inspired me.<br/><br/>
