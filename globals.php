@@ -2,10 +2,10 @@
 	//Exhibition page related flags
 	$exhibition = false;	//Use special exhibition text
 	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
-	$ex_title = "Upcoming Exhibition: <i>Passerelle</i>";		//The title of the Exhibitions page.
+	$ex_title = "Exhibition";		//The title of the Exhibitions page.
 	$upcoming_text = 
-		'<i>Passerelle</i>, or <i>Gateway</i>, is a show representing my latest journeys along the coast of Spain, Sweden and the beautiful interior of Quebec. Whether they be landscapes, cityscapes or abstracts, I hope to communicate a strong emotional response through the common elements of colour, composition and design. Hoping to inspire you, the viewer, the way these places have inspired me.<br/><br/>
-		Paintings that are still available from <i>Passerelle</i> can be viewed at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a><br/>';
+		'My next show will be held at the <a href="http://www.siennagalleryandframing.ca/" class="text-center" style="display: inline">Sienna Gallery</a> in Rockland, Ontario from May 1, 2018 - August 1, 2018.<br/><br/>
+		Check back here for news and to see paintings available for purchase at the show.<br/>';
 	
 	//Standard exhibition blurb.
 	$exhibition_std =
