@@ -4,7 +4,7 @@
 	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Exhibitions";		//The title of the Exhibitions page.
 	$upcoming_text = 
-		'My next show will be held at the <a href="http://www.siennagalleryandframing.ca/" class="text-center" style="display: inline">Sienna Gallery</a> in Rockland, Ontario from May 1, 2018 - August 1, 2018.<br/><br/>
+		'My next show will be held at the <a href="http://www.siennagalleryandframing.ca/" class="text-center" style="display: inline">Sienna Gallery</a> in Rockland, Ontario from June 1, 2018 - August 1, 2018.<br/><br/>
 		Check back here for news and to see paintings available for purchase at the show.<br/>';
 	
 	//Standard exhibition blurb.
