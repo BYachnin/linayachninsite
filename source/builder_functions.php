@@ -1,6 +1,6 @@
 <?php 
 	//Function to build a paintings bloc.
-	function generate_paintings($heading, $background = "white-2", $csv, $pagetitle) {
+	function generate_paintings($heading, $csv, $pagetitle, $background = "white-2") {
 		include 'source/paintings_outer.phtml';
 	}
 	
