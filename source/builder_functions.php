@@ -23,7 +23,7 @@
 	//Function to generate the paintings from csv.
 	function paintings_from_csv($csv) {
 		//Set a variable that tracks if this is the first row of paintings
-		first = TRUE;
+		$first = TRUE;
 		
 		//Open the CSV file for reading
 		if ($csvfile = fopen($csv, "r") ) {
@@ -40,7 +40,7 @@
 				//If this is a new row of paintings.
 				if ( $paint['newline'] ) {
 					//If this is the very first row, add the first row div class.
-					if ( first ) {
+					if ( $first ) {
 						echo '\t\t\t\t<div class="row">\n';
 						$first = FALSE;
 					//Otherwise, close the previous div and open the next.
