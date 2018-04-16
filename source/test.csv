@@ -1,2 +1,2 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,'col-sm-3','img/Coquelicots.jpg','portrait','Coquelicots',TRUE,"'8"" x 11""'",'framed','$225'
+TRUE,col-sm-3,img/Coquelicots.jpg,portrait,Coquelicots,TRUE,8" x 11",framed,$225

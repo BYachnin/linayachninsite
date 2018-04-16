@@ -41,7 +41,7 @@
 				if ( $paint['newline'] ) {
 					//If this is the very first row, add the first row div class.
 					if ( $first ) {
-						echo "\t\t\t\t".'<div class="row">'."\n";
+						echo '<div class="row">'."\n";
 						$first = FALSE;
 					//Otherwise, close the previous div and open the next.
 					} else {
