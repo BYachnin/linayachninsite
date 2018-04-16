@@ -41,56 +41,56 @@
 				if ( $paint['newline'] ) {
 					//If this is the very first row, add the first row div class.
 					if ( $first ) {
-						echo '\t\t\t\t<div class="row">\n';
+						echo "\t\t\t\t".'<div class="row">'."\n";
 						$first = FALSE;
 					//Otherwise, close the previous div and open the next.
 					} else {
-						echo '\t\t\t\t</div>\n';
-						echo '\t\t\t\t<div class="row row-move-down">\n';
+						echo "\t\t\t\t".'</div>'."\n";
+						echo "\t\t\t\t".'<div class="row row-move-down">'."\n";
 					}
 				}
 				
 				//Add the div class for this painting.
-				echo '\t\t\t\t\t<div class="' . $paint['divclass'] . '">\n';
+				echo "\t\t\t\t\t".'<div class="' . $paint['divclass'] . '">'."\n";
 				//Add the painting image
-				echo '\t\t\t\t\t\t<a href="#" data-lightbox="' . $paint['path'] . '"data-frame="dark-lb"><img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/></a>\n';
+				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '"data-frame="dark-lb"><img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/></a>'."\n";
 				
 				//Add the painting title, including Sold tag if necessary.
-				echo '\t\t\t\t\t\t<h3 class="text-center mg-sm">\n';
-				echo '\t\t\t\t\t\t\t' . $paint['title'];
+				echo "\t\t\t\t\t\t".'<h3 class="text-center mg-sm">'."\n";
+				echo "\t\t\t\t\t\t\t" . $paint['title'];
 				if ( !$paint['available'] ) {
 					echo ' (Sold)';
 				}			
-				echo '\n';
-				echo '\t\t\t\t\t\t</h3>\n';
+				echo "\n";
+				echo "\t\t\t\t\t\t</h3>\n";
 				
 				//If the painting is available, add the dimensions and price.
 				if ( $paint['available'] ) {
-					echo '\t\t\t\t\t\t<p class=" text-center">\n';
+					echo "\t\t\t\t\t\t".'<p class=" text-center">'."\n";
 					//Change the output depending on what combination of dimensions, media, and price we have.
 					if ( $paint['dim'] && $paint['media'] ) {
-						echo '\t\t\t\t\t\t\t' . $paint['dim'] . ', ' . $paint['media'];
+						echo "\t\t\t\t\t\t\t" . $paint['dim'] . ', ' . $paint['media'];
 					} elseif ( $paint['dim'] && !$paint['media'] ) {
-						echo '\t\t\t\t\t\t\t' . $paint['dim'];
+						echo "\t\t\t\t\t\t\t" . $paint['dim'];
 					} elseif ( !$paint['dim'] && $paint['media'] ) {
-						echo '\t\t\t\t\t\t\t' . ucfirst($paint['media']);
+						echo "\t\t\t\t\t\t\t" . ucfirst($paint['media']);
 					}
 					
 					if ( $paint['price'] ) {
-						echo '<br/>\n';
-						echo '\t\t\t\t\t\t\t' . $paint['price'] . '\n';
-					} else {echo '\n';}
+						echo "<br/>\n";
+						echo "\t\t\t\t\t\t\t" . $paint['price'] . "\n";
+					} else {echo "\n";}
 					
 					
-					echo '\t\t\t\t\t\t</p>\n';
+					echo "\t\t\t\t\t\t</p>\n";
 				}
 				
 				//Close the painting div.
-				echo '\t\t\t\t\t</div>\n';
+				echo "\t\t\t\t\t</div>\n";
 			}
 			
 			//Close the last row div
-			echo '\t\t\t\t</div>\n';
+			echo "\t\t\t\t</div>\n";
 		
 			fclose($csvfile);
 		}
