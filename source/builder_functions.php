@@ -54,7 +54,7 @@
 				//Add the div class for this painting.
 				echo "\t\t\t\t\t".'<div class="' . $paint['divclass'] . '">'."\n";
 				//Add the painting image
-				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '"data-frame="dark-lb"><img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/></a>'."\n";
+				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '" data-frame="dark-lb"><img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/></a>'."\n";
 				
 				//Add the painting title, including Sold tag if necessary.
 				echo "\t\t\t\t\t\t".'<h3 class="text-center mg-sm">'."\n";
@@ -67,7 +67,7 @@
 				
 				//If the painting is available, add the dimensions and price.
 				if ( $paint['available'] ) {
-					echo "\t\t\t\t\t\t".'<p class=" text-center">'."\n";
+					echo "\t\t\t\t\t\t".'<p class="text-center">'."\n";
 					//Change the output depending on what combination of dimensions, media, and price we have.
 					if ( $paint['dim'] && $paint['media'] ) {
 						echo "\t\t\t\t\t\t\t" . $paint['dim'] . ', ' . $paint['media'];
