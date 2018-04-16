@@ -7,16 +7,17 @@
 	//Function to give our CSV array keynames.
 	function keyname($array) {
 		$keyed_array = array(
-			'newline' => $array[0],
+			'newline' => filter_var($array[0], FILTER_VALIDATE_BOOLEAN),
 			'divclass' => $array[1],
 			'path' => $array[2],
 			'imgclass' => $array[3],
 			'title' => $array[4],
-			'available' => $array[5],
+			'available' => filter_var($array[5], FILTER_VALIDATE_BOOLEAN),
 			'dim' => $array[6],
 			'media' => $array[7],
 			'price' => $array[8]
 		);
+		
 		return $keyed_array;
 	}
 	
@@ -32,7 +33,7 @@
 						
 			//Loop over the rest of the file.
 			while ( ($paint = fgetcsv($csvfile, 1000)) !==FALSE )  {
-				//Convert the array into one with keyed names.
+				//Convert the array into one with keyed names and correct booleans.
 				$paint = keyname($paint);
 				
 				//TODO: Adjust for blank lines in the CSV.
