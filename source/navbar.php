@@ -1,6 +1,7 @@
 <?php
 	//Define the name of the current page as a single item array.
 	$curpage = array( basename($_SERVER['PHP_SELF'], '.phtml') );
+	$curpage = $curpage[0];
 
 	//Generate the text for a single list item.
 	function addListItem($pageName, $pageTitle) {
