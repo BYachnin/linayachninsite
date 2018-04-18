@@ -14,7 +14,7 @@
 	$email_subject = "Message from lina_site.";
 	$email_body = "You have received a new message. \n\n".
 				  "Name: $name \nEmail: $email \nMessage: $message \n";
-	$headers = "From: katekahlo@gmail.com\n";
+	$headers = "From: lina@linayachnin.com\n";
 	$headers .= "Reply-To: $email";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
