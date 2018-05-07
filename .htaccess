@@ -19,6 +19,7 @@ RewriteRule ^([^\.]+)$ $1.phtml [NC,L]
         ExpiresByType image/jpeg "access plus 31556952 seconds"  
         ExpiresByType image/png "access plus 31556952 seconds"  
         ExpiresByType image/gif "access plus 31556952 seconds"  
+		ExpiresByType application/x-font-woff "access plus 31556952 seconds"  
         ExpiresByType text/css "access plus 604800 seconds"  
         ExpiresByType text/javascript "access plus 604800 seconds"  
         ExpiresByType application/javascript "access plus 604800 seconds"  
