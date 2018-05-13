@@ -25,6 +25,9 @@
 	}
 	
 //Generate the navbar HTML code.?>
+<!-- This is the spinning wheel load graphic, which will disappear after page load -->
+<div id="page-loading-blocs-notifaction" class="bloc-fill-screen"></div>
+<!-- Spinning wheel load graphic END -->
 <!-- navbar.php -->
 <!-- bloc-navbar-mobile -->
 <div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
