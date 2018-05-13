@@ -80,7 +80,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Background Styles */
 /* I have set to be on mobile size only */
-@media (max-width:767.9999999999px) {
+@media (max-width:767.9px) {
 	.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
 		-webkit-background-size: auto!important;
 		-moz-background-size: auto!important;
@@ -748,7 +748,7 @@ a.button-link{
 a.button-link:hover{
 	color:#999999!important;
 }
-@media (max-width: 767.9999999999px){
+@media (max-width: 767.9px){
 	a.button-link{
 		font-size: 30px;
 	}
@@ -928,7 +928,7 @@ a.button-link:hover{
 	font-size: 80px;
 }
 
-@media (max-width:767.9999999999px) {
+@media (max-width:767.9px) {
 	.banner h1{
 		font-size: 50px;
 	}
@@ -945,7 +945,7 @@ img.portrait {
 	height: 329px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991.9999999999px)
+@media screen and (min-width: 768px) and (max-width: 991.9px)
 {
 	img.landscape {
 		width: 145px;
@@ -958,7 +958,7 @@ img.portrait {
 	}
 }
 
-@media screen and (max-width: 767.9999999999px)
+@media screen and (max-width: 767.9px)
 {
 	img.landscape, img.portrait {
 		width: 90%;
@@ -986,14 +986,14 @@ img.portrait {
 
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
-@media (max-width: 1024.9999999999px)
+@media (max-width: 1024.9px)
 {
     .bloc{
         padding-left: 20px; 
         padding-right: 20px;  
     }
 }
-@media (max-width: 767.9999999999px)
+@media (max-width: 767.9px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
@@ -1151,7 +1151,7 @@ img.portrait {
     }
 }
 
-@media (max-width: 767.9999999999px)
+@media (max-width: 767.9px)
 {
 	a, .mobile a
 	{
@@ -1191,7 +1191,7 @@ img.portrait {
 		padding-top:10px;
 	}
 }
-@media (max-width: 420.9999999999px)
+@media (max-width: 420.9px)
 {
 	h1,h2,h3,h4,h5,h6,p,label,.btn,a
 	{
