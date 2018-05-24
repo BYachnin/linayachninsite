@@ -3,7 +3,7 @@
 <div class="bloc hidden-xs hidden-sm bgc-white l-bloc" id="bloc-social-desktop">
 	<div class="container bloc-md">
 		<div class="row padding-footer">
-			<div class="col-sm-3 col-sm-offset-3">
+			<!-- <div class="col-sm-3 col-sm-offset-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -13,8 +13,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-3">
+			</div> -->
+			<div class="col-sm-4 col-sm-offset-4">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -31,7 +31,7 @@
 <div class="bloc hidden-xs hidden-lg hidden-md bgc-white l-bloc" id="bloc-social-tablet">
 	<div class="container bloc-md">
 		<div class="row footer-tablet-padding">
-			<div class="col-sm-3 col-sm-offset-3">
+			<!-- <div class="col-sm-3 col-sm-offset-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -41,8 +41,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-3">
+			</div> -->
+			<div class="col-sm-4 col-sm-offset-4">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3"/>
+			<!--<div class="col-sm-3"/>-->
 		</div>
 	</div>
 </div>
