@@ -1,7 +1,7 @@
 <?php
 	//Exhibition page related flags
-	$exhibition = true;	//Use special exhibition text
-	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
+	$exhibition = false;	//Use special exhibition text
+	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Sienna Gallery Exhibition";		//The title of the Exhibitions page.
 	$upcoming_text = 
 		'I have a show currently being held at the <a href="http://www.siennagalleryandframing.ca/" class="text-center" style="display: inline">Sienna Gallery</a> in Rockland, Ontario from June 1, 2018 - August 1, 2018.<br/><br/>
