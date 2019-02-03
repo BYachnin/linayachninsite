@@ -1,4 +1,13 @@
 <?php include 'globals.php';?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133713429-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133713429-1');
+</script>
 <meta name="keywords" content="Ottawa watercolour oil artist paint painting art Canada landscape floral abstract for sale local Quebec Gatineau Outaouais affordable buy purchase order cheap gift present Galerie Old Chelsea gallery cadeau peinture artiste huile aquarelle fleurs abstrait dessin paysage abordable commander acheter Wakefield">
 	<meta name="description" content="Lina Yachnin is a Canadian oil & watercolour artist who paints landscapes, floral arrangements, and abstract images.">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
@@ -13,13 +22,3 @@
 	<meta property="og:image" content="https://www.linayachnin.com/img/lina_yachnin_facebook_profile.jpg"/>
 	<meta property="og:description" content="Lina Yachnin is a Canadian oil & watercolour artist who paints landscapes, floral arrangements, and abstract images."/>
 	<meta property="og:url" content="https://www.linayachin.com"/>
-	
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-88189548-1', 'auto');
-		ga('send', 'pageview');
-	</script>
