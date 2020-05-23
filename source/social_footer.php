@@ -22,7 +22,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3 col-sm-offset-3">
+			<div class="col-sm-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3 col-sm-offset-3">
+			<div class="col-sm-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
