@@ -14,7 +14,15 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="col-sm-4 col-sm-offset-4">
+			<div class="col-sm-3 col-sm-offset-3">
+				<div class="text-center">
+					<a href="index"></a>
+					<div class="text-center">
+						<a href="index"></a><a href="https://www.instagram.com/linayachnin/" target="_blank"><span class="fa fa-instagram icon-lg pull-left icon-dark-lava"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-sm-offset-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
@@ -42,7 +50,15 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="col-sm-4 col-sm-offset-4">
+			<div class="col-sm-3 col-sm-offset-3">
+				<div class="text-center">
+					<a href="index"></a>
+					<div class="text-center">
+						<a href="index"></a><a href="https://www.instagram.com/linayachnin/" target="_blank"><span class="fa fa-instagram icon-dark-lava icon-lg pull-left"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-sm-offset-3">
 				<div class="text-center">
 					<a href="index"></a>
 					<div class="text-center">
