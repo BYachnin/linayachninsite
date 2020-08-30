@@ -1,11 +1,10 @@
 <?php
 	//Exhibition page related flags
-	$exhibition = false;	//Use special exhibition text
+	$exhibition = true;	//Use special exhibition text
 	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
-	$ex_title = "Sienna Gallery Exhibition";		//The title of the Exhibitions page.
+	$ex_title = "Through the Trees";		//The title of the Exhibitions page.
 	$upcoming_text = 
-		'I have a show currently being held at the <a href="http://www.siennagalleryandframing.ca/" class="text-center" style="display: inline">Sienna Gallery</a> in Rockland, Ontario from June 1, 2018 - August 1, 2018.<br/><br/>
-		The following paintings are available for purchase at the Sienna Gallery until August 1.<br/>';
+		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  I hope you will join us!<br/>';
 	
 	//Standard exhibition blurb.
 	$exhibition_std =
