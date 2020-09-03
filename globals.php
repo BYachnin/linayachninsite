@@ -3,6 +3,7 @@
 	$exhibition = true;	//Use special exhibition text
 	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Through the Trees";		//The title of the Exhibitions page.
+	$ex_banner_style = "bg-Through-the-Trees";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text = 
 		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  I hope you will join us!<br/>  Check back here in the coming weeks for a preview of the new works.<br/>';
 	
