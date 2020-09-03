@@ -4,7 +4,7 @@
 	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Through the Trees";		//The title of the Exhibitions page.
 	$upcoming_text = 
-		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  I hope you will join us!<br/>';
+		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  I hope you will join us!<br/>  Check back here in the coming weeks for a preview of the new works.<br/>';
 	
 	//Standard exhibition blurb.
 	$exhibition_std =
