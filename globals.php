@@ -5,7 +5,7 @@
 	$ex_title = "Through the Trees";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-Through-the-Trees";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text = 
-		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.  I hope you will join us!<br/>  Check back here in the coming weeks for a preview of the new works.<br/>';
+		'My next show, <i>Through the Trees</i>, will be taking place from October 16 - November 4 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br/>The Canadian landscape is an inspiration. Our home in Quebec is in an old growth forest which I love. It has provided endless possibilities for colourful, energetic paintings. This show is focused on our relationship with trees. Through a semi-abstract approach, integrating the elements of composition and colour, I hope to capture the extraordinary. The landscape is always changing. Painting the trees first gives them primary importance. The background brings us into the scene and gives us a place to be. Enjoy looking “Through The Trees” and my new works in watercolour!';
 	
 	//Standard exhibition blurb.
 	$exhibition_std =
