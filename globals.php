@@ -1,6 +1,6 @@
 <?php
 	//Exhibition page related flags
-	$exhibition = true;	//Use special exhibition text
+	$exhibition = false;	//Use special exhibition text
 	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
 	$ex_title = "Through the Trees";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-Through-the-Trees";	//The background picture style for the exhibitions.  Must update CSS!
