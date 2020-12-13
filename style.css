@@ -518,55 +518,41 @@ a.button-link:hover{
 
 /* Background colour styles */
 
-.bgc-gray-x11-gray{
-	background-color:#B9BABE;
-}
-.bgc-white{
-	background-color:#FFFFFF;
-}
-.bgc-white-2{
+.bgc-main-bg{
 	background-color:#FEFFFF;
 }
-.bgc-gainsboro{
+.bgc-accent-bg{
 	background-color:#DEDFE4;
 }
-.bgc-baby-pink{
-	background-color:#EECBC0;
+.bgc-navbar{
+	background-color:#B9BABE;
 }
-.bgc-gray204{
+.bgc-avail-works{
 	background-color:#CCCCCC;
 }
-/* Text colour styles */
 
+/* Text colour styles */
 .tc-white{
 	color:#FEFFFF!important;
 }
-.tc-white-2{
-	color:#FFFFFF!important;
-}
-/* Button colour styles */
 
-.btn-dark-lava{
+/* Button colour styles */
+.submit-button-color{
 	background:#333237;
 	color:#FFFFFF!important;
 }
-.btn-dark-lava:hover{
+.socialmedia-icon-color{
+	color:#333237!important;
+	border-color:#333237!important;
+}
+.submit-button-color:hover{
 	background:#29282c;
 	color:#FFFFFF!important;
 }
+
 /* Link colour styles */
-
-.ltc-white{
-	color:#FEFFFF!important;
-}
-.ltc-white:hover{
+a.tc-white:hover{
 	color:#cbcccc!important;
-}
-/* Icon colour styles */
-
-.icon-dark-lava{
-	color:#333237!important;
-	border-color:#333237!important;
 }
 
 /* Bloc image backgrounds */
@@ -880,7 +866,6 @@ img.portrait {
 	font-size:30px;
 	font-weight:bold;
 	text-shadow:1px 3px 6px #000000;
-	color:#FEFFFF;
 	float:left;
 	display:block;
 	overflow:visible;

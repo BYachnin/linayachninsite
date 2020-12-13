@@ -30,7 +30,7 @@
 <!-- Spinning wheel load graphic END -->
 <!-- navbar.php -->
 <!-- bloc-navbar-mobile -->
-<div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc nav" id="bloc-navbar-mobile">
+<div class="bloc hidden-sm hidden-lg hidden-md bgc-navbar l-bloc nav" id="bloc-navbar-mobile">
 	<div class="container">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -51,7 +51,7 @@
 <!-- bloc-navbar-mobile END -->
 
 <!-- bloc-navbar-desktop -->
-<div class="bloc hidden-xs hidden-sm bgc-white l-bloc pad-top-nav nav" id="bloc-navbar-desktop">
+<div class="bloc hidden-xs hidden-sm bgc-main-bg l-bloc pad-top-nav nav" id="bloc-navbar-desktop">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-4">
@@ -68,7 +68,7 @@
 <!-- bloc-navbar-desktop END -->
 
 <!-- bloc-navbar-tablet -->
-<div class="bloc hidden-xs hidden-lg hidden-md bgc-white l-bloc nav" id="bloc-navbar-tablet">
+<div class="bloc hidden-xs hidden-lg hidden-md bgc-main-bg l-bloc nav" id="bloc-navbar-tablet">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-6">
