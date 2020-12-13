@@ -148,46 +148,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin-top:30px;
 }
 
-/* Bloc text custom styling */
-
-#bloc-index-titlebanner-desktop h1{
-	line-height: 40px;
-}
-#bloc-index-titlebanner-mobile h1{
-	font-size: 25px;
-	line-height: 30px;
-}
-#bloc-contact-form p{
-	line-height: 50px;
-}
-#bloc-about-statement p{
-	font-size: 25px;
-}
-#bloc-exhibition-announce p, #bloc-exhibition-announce a{
-	font-size: 25px;
-}
-#bloc-about-soloshows h2{
-	font-size: 35px;
-}
-#bloc-about-soloshows p{
-	font-size: 16px;
-}
-#bloc-about-groupshows h2{
-	font-size: 35px;
-}
-#bloc-about-groupshows p{
-	font-size: 16px;
-}
-#bloc-about-location p{
-	font-size: 25px;
-}
-#bloc-index-exhibition-desktop {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 /* = NavBar
 -------------------------------------------------------------- */
+
+.nav{
+	font-size:20px;
+}
 
 .navbar{
 	margin-bottom: 0;
@@ -431,23 +397,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	display:block;
 	text-align:left;
 	color:#333137;
-	font-size:30px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 25px;
+}
+h4{
+	font-size: 20px;
+}
+h6{
+	font-size: 20px;
+}
+p{
+	font-size: 16px;
 }
 .container{
 	max-width:1024px;
 }
-.statement-bloc-text{
-	line-height:38px;
-	font-style:italic;
-	font-size:28px;
-	text-align:center;
-	font-weight:lighter;
-}
 a{
-	font-family:"helvetica";
-	font-weight:300;
 	color:rgba(51,49,55,0.9);
-	font-size:24px;
 }
 .yachnin-sig{
 	display:block;
@@ -487,6 +460,7 @@ a{
 }
 .labels-form{
 	text-align:left;
+	font-size:20px;
 }
 .pad-top-nav{
 	padding-top:5px;
