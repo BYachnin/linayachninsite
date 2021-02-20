@@ -71,4 +71,4 @@
 	</div>
 </div>
 <!-- Footer - bloc-social-tablet END -->
-<!-- END OF social_footer.php -->';
+<!-- END OF social_footer.php -->
