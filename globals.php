@@ -1,8 +1,9 @@
 <?php
 	//Announcement flags
-	$announcement = false; // Add announcement to the homepage.
+	$announcement = true; // Add announcement to the homepage.
 	$announcement_text =
 		'Please join Lina and the other Galerie Old Chelsea artists for a group exhibition, "The Wonders of Winter," from January 27 to February 13.  For more information, visit <a href="https://www.galerieoldchelsea.ca/exhibitions" class="text-center" style="display: inline">Galerie Old Chelsea</a>';
+	$announcement_text = "";  // Add to clear the announcement text from main page
 	$hide_announce_img = false; // Include a poster type image?
 	$announcement_img = "img/Des_gens_et_des_lieux_2022_Poster.jpg"; // Path to poster type image
 
