@@ -9,7 +9,7 @@
 
 	//Exhibition page related flags
 	$exhibition = true;	//Use special exhibition text
-	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
+	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
 	$ex_title = "Des gens et des lieux";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-First-Snow-II";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text =
