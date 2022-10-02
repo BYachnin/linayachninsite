@@ -10,14 +10,18 @@
 <body>
 <!-- Main container -->
 <div class="page-container">
-    
+<!-- This is the spinning wheel load graphic, which will disappear after page load -->
+<div id="page-loading-blocs-notifaction" class="bloc-fill-screen"></div>
+<!-- Spinning wheel load graphic END -->
+
 <!-- bloc-navbar-mobile -->
 <div class="bloc hidden-sm hidden-lg hidden-md bgc-gray-x11-gray l-bloc" id="bloc-navbar-mobile">
 	<div class="container">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a href="http://www.facebook.com/linayachninart/" class="icon-padding" target="_blank"><span class="fa fa-facebook icon-md pull-left"></span></a><a href="https://www.linkedin.com/in/lina-yachnin-54a9a28a" target="_blank"><span class="fa fa-linkedin icon-md pull-left"></span></a>
-				<button type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a href="https://www.instagram.com/linayachnin/" class="icon-padding" target="_blank"><span class="fa fa-instagram icon-md pull-left"></span></a>
+				<a href="https://www.linkedin.com/in/lina-yachnin-54a9a28a" target="_blank"><span class="fa fa-linkedin icon-md pull-left"></span></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
@@ -117,46 +121,34 @@
 </div>
 <!-- bloc-navbar-index-desktop END -->
 
-<!-- bloc-index-exhibition-mobile -->
-<div class="hidden-all bloc hidden-lg hidden-md hidden-sm b-parallax bg-After-the-Storm bgc-white-2 l-bloc bg-center" id="bloc-index-exhibition-mobile">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<!--<a class="pull-left ltc-white mm-links-mobile" href="exhibitions">Upcoming<br/>Exhibition:<br/><i>Passerelle</i></a>-->
-				<a class="pull-left ltc-white mm-links-mobile" href="exhibitions">Exhibition:<br/><i>Passerelle</i></a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-index-exhibition-mobile END -->
-
-<!-- spacer -->
-<div class="hidden-all bloc hidden-lg hidden-md hidden-sm bgc-gainsboro l-bloc bloc-width">
+<!-- bloc-index-announcement -->
+<div class="bloc bg-center l-bloc <?php if ((!$announcement)) {echo 'hidden-all';}?>" id="bloc-index-announcement">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
+				<a class="center-block text-center hidden-sm hidden-md hidden-lg <?php if ($hide_announce_img) {echo 'hidden-all';}?>">
+					<img class="portrait" src="<?php echo $announcement_img?>"/>
+				</a>
+				<a class="center-block hidden-xs <?php if ($hide_announce_img) {echo 'hidden-all';}?>" style="width: 588px" <?php if ($exhibition) {echo 'href="exhibitions"';}?>>
+					<img src="<?php echo $announcement_img?>" style="width: 588px"/>
+				</a>
+				<br/>
+				<h3 class="text-center mg-sm">
+					<?php echo $announcement_text;?>
+				</h3>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- spacer END -->
+<!-- bloc-index-announcement END -->
 
-<!-- bloc-index-exhibition-desktop -->
-<div class="hidden-all bloc bloc-tile-2 hidden-xs bgc-baby-pink bg-After-the-Storm d-bloc" id="bloc-index-exhibition-desktop">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h2 class="mg-md text-center">
-					<!--<a class="ltc-white mm-links" href="exhibitions">Upcoming<br/>Exhibition:<br/><i>Passerelle</i></a>-->
-					<a class="ltc-white mm-links" href="exhibitions">Exhibition:<br/><i>Passerelle</i></a>
-				</h2>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-index-exhibition-desktop END -->
+<?php
+	if ( $exhibition ) {
+			include 'exhibitions_index.phtml';
+		}
+?>
 
-<div class="hidden-all divider-h">
+<div class="divider-h">
 	<span class="divider divider-half"></span>
 </div>
 
@@ -200,7 +192,7 @@
 <!-- spacer END -->
 
 <!-- bloc-index-landscapes-mobile -->
-<div class="bloc hidden-lg hidden-md hidden-sm bgc-white-2 bg-Sunrise d-bloc b-parallax bg-center" id="bloc-index-landscapes-mobile">
+<div class="bloc hidden-lg hidden-md hidden-sm bgc-white-2 bg-Through-the-Trees d-bloc b-parallax bg-center" id="bloc-index-landscapes-mobile">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -327,12 +319,12 @@
 
 </div>
 <!-- Main container END -->
-    
+
 <?php include 'source/scripts_footer.php';?>
 </body>
-    
+
 <!-- Google Analytics -->
- 
+
 <!-- Google Analytics END -->
 
 </html>
