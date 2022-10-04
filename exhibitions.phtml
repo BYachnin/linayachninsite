@@ -42,7 +42,8 @@
 
 <?php
 	if ( $exhibition && $exhibition_paintings ) {
-			include 'exhibitions_paintings.phtml';
+			generate_paintings("oil", "paintings/exhibition_oils.csv", $curpage[0], "gainsboro");
+			generate_paintings("watercolour", "paintings/exhibition_watercolours.csv", $curpage[0]);
 		}
 ?>
 
