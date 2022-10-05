@@ -1,0 +1,4 @@
+New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
+TRUE,col-sm-4,img/Night_Out.jpg,landscape,Night Out,TRUE,"33"" x 33""",Oil on canvas,$1050
+FALSE,col-sm-4,img/Coffee_Time.jpg,landscape,Coffee Time,TRUE,"33"" x 33""","Oil on canvas, framed",$1050
+FALSE,col-sm-4,img/Dining_Out.jpg,landscape,Dining Out,TRUE,"27"" x 40""","Oil on gallery canvas, framed",$1250
