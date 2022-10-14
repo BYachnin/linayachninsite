@@ -1,8 +1,8 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-3,img/Coffee_Time.jpg,landscape,Coffee Time,TRUE,"33"" x 33""","Oil on canvas, framed",$1050
-FALSE,col-sm-3,img/Night_Out.jpg,landscape,Night Out,TRUE,"33"" x 33""",Oil on canvas,$1050
-FALSE,col-sm-3,img/Dining_Out.jpg,landscape,Dining Out,TRUE,"27"" x 40""","Oil on gallery canvas, framed",$1250
-FALSE,col-sm-3,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,TRUE,"30"" x 40""",Oil on gallery canvas,$1350
+TRUE,col-sm-3,img/Coffee_Time.jpg,landscape,Coffee Time,FALSE,"33"" x 33""","Oil on canvas, framed","$1,050"
+FALSE,col-sm-3,img/Night_Out.jpg,landscape,Night Out,TRUE,"33"" x 33""",Oil on canvas,"$1,050"
+FALSE,col-sm-3,img/Dining_Out.jpg,landscape,Dining Out,TRUE,"27"" x 40""","Oil on gallery canvas, framed","$1,250"
+FALSE,col-sm-3,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,TRUE,"30"" x 40""",Oil on gallery canvas,"$1,350"
 TRUE,col-sm-4,img/Colourful_Reflections_II.jpg,portrait,Colourful Reflections II,TRUE,"18"" x 36""",Oil on gallery canvas,$700
-FALSE,col-sm-4,img/Glacial_Walk.jpg,portrait,Glacial Walk,TRUE,"38"" x 50""","Oil on gallery canvas, framed",$2100
-FALSE,col-sm-4,img/Shoreline_Walk.jpg,portrait,Shoreline Walk,TRUE,"33"" x 33""",Oil on gallery canvas,$990
+FALSE,col-sm-4,img/Glacial_Walk.jpg,portrait,Glacial Walk,FALSE,"38"" x 50""","Oil on gallery canvas, framed","$2,100"
+FALSE,col-sm-4,img/Shoreline_Walk.jpg,portrait,Shoreline Walk,FALSE,"33"" x 33""",Oil on gallery canvas,$990
