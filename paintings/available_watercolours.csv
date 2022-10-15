@@ -1,5 +1,5 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-6,img/Evening_in_Spain.jpg,landscape,Evening in Spain,TRUE,"24"" x 30""","Watercolour, framed",$875
-FALSE,col-sm-6,img/Irish_Corner.jpg,landscape,Irish Corner,TRUE,"24"" x 30""","Watercolour, framed",$875
-TRUE,col-sm-6,img/Evening_Out_II.jpg,portrait,Evening Out II,TRUE,"24"" x 30""","Watercolour, framed",$875
-FALSE,col-sm-6,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,TRUE,"19"" x 29""","Watercolour on paper, framed",$650
+TRUE,col-sm-6,img/Evening_in_Spain.jpg,landscape,Evening in Spain,TRUE,"24"" x 30""","Watercolour, framed",875
+FALSE,col-sm-6,img/Irish_Corner.jpg,landscape,Irish Corner,TRUE,"24"" x 30""","Watercolour, framed",875
+TRUE,col-sm-6,img/Evening_Out_II.jpg,portrait,Evening Out II,TRUE,"24"" x 30""","Watercolour, framed",875
+FALSE,col-sm-6,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,TRUE,"19"" x 29""","Watercolour on paper, framed",650
