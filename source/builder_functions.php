@@ -93,4 +93,68 @@
 			fclose($csvfile);
 		}
 	}
+
+	//Function to generate the structured data from csvs.
+	function structured_data_from_csv($csv_arr) {
+		//Add one-per-page data
+		echo "<script type='application/ld+json'>\n{\n";
+		echo "\t\"@context\": \"http://www.schema.org\",\n";
+		echo "\t\"@graph\": [\n";
+
+		//Set a variable that tracks if this is the first painting
+		$first = TRUE;
+
+		//Loop over files
+		foreach ($csv_arr as $csv) {
+			//Open the CSV file for reading
+			if ($csvfile = fopen($csv, "r") ) {
+				//Skip the first line.
+				$paint = fgets($csvfile);
+
+				//Loop over the rest of the file.
+				while ( ($paint = fgetcsv($csvfile, 1000)) !==FALSE )  {
+					//Convert the array into one with keyed names and correct booleans.
+					$paint = keyname($paint);
+
+					//TODO: Adjust for blank lines in the CSV.
+
+					//Skip unavailable paintings and ones without prices
+					if ((!( $paint['available'] )) or (!( $paint['price'] ))) {
+						continue;
+					}
+
+					if (! $first ) {
+						echo ",\n";
+					}
+					$first = FALSE;
+
+					//Build the common information
+					echo "\t\t{\n";
+					echo "\t\t\t\"@type\": \"Product\",\n";
+					echo "\t\t\t\"artist\": \"Lina Yachnin\",\n";
+					echo "\t\t\t\"artform\": \"Painting\",\n";
+					echo "\t\t\t\"countryOfOrigin\": \"Canada\",\n";
+
+					//Add painting-specific info
+					echo "\t\t\t\"name\": \"" . $paint['title'] . "\",\n";
+					echo "\t\t\t\"image\": \"" . $paint['path'] . "\",\n";
+					echo "\t\t\t\"artMedium\": \"" . $paint['media'] . "\",\n";
+
+					//Pricing info
+					echo "\t\t\t\"offers\": {\n";
+					echo "\t\t\t\t\"price\": " . $paint['price'] . ",\n";
+					echo "\t\t\t\t\"priceCurrency\": \"CAD\",\n";
+					echo "\t\t\t\t\"availability\": \"InStoreOnly\"}";
+
+					//Close this painting
+					echo "\n\t\t}";
+				}
+			}
+			fclose($csvfile);
+
+		}
+		//End of the json-ld block
+		echo "\n\t]}\n";
+		echo "</script>\n";
+	}
 ?>
