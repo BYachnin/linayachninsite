@@ -1,6 +1,6 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,TRUE,"19"" x 29""","Watercolour on paper, framed",$650
-FALSE,col-sm-4,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",$375
+TRUE,col-sm-4,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,TRUE,"19"" x 29""","Watercolour on paper, framed",650
+FALSE,col-sm-4,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
 FALSE,col-sm-4,img/Bouquet_in_Blue.jpg,portrait,Bouquet in Blue,FALSE,,,
 TRUE,col-sm-4,img/Draped_in_Blue.jpg,portrait,Draped in Blue,FALSE,,,
 FALSE,col-sm-4,img/Just_for_You.jpg,portrait,Just for You,FALSE,,,

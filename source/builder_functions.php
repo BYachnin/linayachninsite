@@ -76,7 +76,7 @@
 						echo "\t\t\t\t\t\t\t" . $paint['media'] . "<br/>\n";
 					}
 					if ( $paint['price'] ) {
-						echo "\t\t\t\t\t\t\t" . $paint['price'] . "\n";
+						echo "\t\t\t\t\t\t\t$" . $paint['price'] . "\n";
 					}
 
 
