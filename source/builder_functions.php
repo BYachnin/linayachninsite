@@ -57,7 +57,7 @@
 				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '" data-frame="dark-lb">' . "\n";
 				echo "\t\t\t\t\t\t\t<picture>\n";
 				echo "\t\t\t\t\t\t\t\t".'<source srcset="' . $paint['path'] . '" type="image/jpeg">' . "\n";
-				echo "\t\t\t\t\t\t\t\t".'<img class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/>' . "\n";
+				echo "\t\t\t\t\t\t\t\t".'<img class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '">' . "\n";
 				echo "\t\t\t\t\t\t\t</picture>\n";
 				echo "\t\t\t\t\t\t</a>\n";
 
@@ -75,10 +75,10 @@
 					echo "\t\t\t\t\t\t".'<p class="text-center">'."\n";
 					//Change the output depending on what combination of dimensions, media, and price we have.
 					if ( $paint['dim'] ) {
-						echo "\t\t\t\t\t\t\t" . $paint['dim'] . "<br/>\n";
+						echo "\t\t\t\t\t\t\t" . $paint['dim'] . "<br>\n";
 					}
 					if ( $paint['media'] ) {
-						echo "\t\t\t\t\t\t\t" . $paint['media'] . "<br/>\n";
+						echo "\t\t\t\t\t\t\t" . $paint['media'] . "<br>\n";
 					}
 					if ( $paint['price'] ) {
 						echo "\t\t\t\t\t\t\t$" . $paint['price'] . "\n";
