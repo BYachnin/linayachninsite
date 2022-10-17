@@ -54,7 +54,12 @@
 				//Add the div class for this painting.
 				echo "\t\t\t\t\t".'<div class="' . $paint['divclass'] . '">'."\n";
 				//Add the painting image
-				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '" data-frame="dark-lb"><img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/></a>'."\n";
+				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '" data-frame="dark-lb">' . "\n";
+				echo "\t\t\t\t\t\t\t<picture>\n";
+				echo "\t\t\t\t\t\t\t\t".'<source srcset="' . $paint['path'] . '" type="image/jpeg">' . "\n";
+				echo "\t\t\t\t\t\t\t\t".'<img class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '"/>' . "\n";
+				echo "\t\t\t\t\t\t\t</picture>\n";
+				echo "\t\t\t\t\t\t</a>\n";
 
 				//Add the painting title, including Sold tag if necessary.
 				echo "\t\t\t\t\t\t".'<h3 class="text-center mg-sm">'."\n";
