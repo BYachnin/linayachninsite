@@ -57,7 +57,7 @@
 				echo "\t\t\t\t\t\t".'<a href="#" data-lightbox="' . $paint['path'] . '" data-frame="dark-lb">' . "\n";
 				echo "\t\t\t\t\t\t\t<picture>\n";
 				echo "\t\t\t\t\t\t\t\t".'<source srcset="' . $paint['path'] . '" type="image/jpeg">' . "\n";
-				echo "\t\t\t\t\t\t\t\t".'<img class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '">' . "\n";
+				echo "\t\t\t\t\t\t\t\t".'<img src="' . $paint['path'] . '" class="center-block ' . $paint['imgclass'] . '" alt="' . $paint['title'] . '">' . "\n";
 				echo "\t\t\t\t\t\t\t</picture>\n";
 				echo "\t\t\t\t\t\t</a>\n";
 
