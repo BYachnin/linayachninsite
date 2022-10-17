@@ -1,0 +1,8 @@
+New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
+TRUE,col-sm-3,img/Coquelicots.jpg,portrait,Coquelicots,TRUE,8" x 11",framed,$225
+FALSE,col-sm-3,img/Still_Life_with_Flowers.jpg,portrait,Still Life with Flowers,TRUE,10" x 17",framed,$425
+FALSE,col-sm-3,img/Bouquet.jpg,portrait,Bouquet,FALSE,13" x 13",invisible,$90000
+FALSE,col-sm-3,img/Summer_Bouquet.jpg,portrait,Summer Bouquet,FALSE,16" x 13",transparent,$100000
+TRUE,col-sm-4,img/Tulips-watercolour.jpg,landscape,Tulips,FALSE,16" x 13",transparent,$100000
+FALSE,col-sm-4,img/Trilliums_bckgrnd.jpg,landscape,Trilliums,FALSE,16" x 13",transparent,$100000
+FALSE,col-sm-4,img/Ready_to_Eat.jpg,landscape,Ready to Eat,FALSE,13" x 13",invisible,$90000

@@ -1,15 +1,16 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Lina Yachnin – Upcoming Exhibitions</title>
 	<?php include 'source/meta_header.php';?>
-	<meta property="og:title" content="Upcoming exhibition for Lina Yachnin — Canadian Oil & Watercolour Artist"/>
+	<meta property="og:title" content="Upcoming exhibition for Lina Yachnin — Canadian Oil & Watercolour Artist">
+	<?php structured_data_from_csv(array("paintings/exhibition_watercolours.csv", "paintings/exhibition_oils.csv"));?>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
-    
+
 <?php include 'source/navbar.php';?>
 
 <!-- bloc-exhibition-banner -->
@@ -42,7 +43,8 @@
 
 <?php
 	if ( $exhibition && $exhibition_paintings ) {
-			include 'exhibitions_paintings.phtml';
+			generate_paintings("oil", "paintings/exhibition_oils.csv", $curpage[0], "gainsboro");
+			generate_paintings("watercolour", "paintings/exhibition_watercolours.csv", $curpage[0]);
 		}
 ?>
 
@@ -50,12 +52,12 @@
 
 </div>
 <!-- Main container END -->
-    
+
 <?php include 'source/scripts_footer.php';?>
 </body>
-    
+
 <!-- Google Analytics -->
- 
+
 <!-- Google Analytics END -->
 
 </html>

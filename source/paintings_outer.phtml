@@ -1,0 +1,16 @@
+<div class="bloc bgc-<?= $background ?> l-bloc painting-text" id="bloc-<?= $pagetitle ?>-<?= $heading ?>s">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-md ">
+					<?= ucwords($heading)."\n"; ?>
+				</h2>
+				<div class="divider-h">
+					<span class="divider divider-half"></span>
+				</div>
+				<!-- function call -->
+				<?php paintings_from_csv($csv) ?>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,10 +1,11 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Lina Yachnin &ndash; Available Works</title>
 	<?php include 'source/meta_header.php';?>
-	<meta property="og:title" content="Available works by Lina Yachnin — Canadian Oil & Watercolour Artist"/>
+	<meta property="og:title" content="Available works by Lina Yachnin — Canadian Oil & Watercolour Artist">
+	<?php structured_data_from_csv(array("paintings/available_watercolours.csv", "paintings/available_oils.csv"));?>
 </head>
 <body><!-- Main container -->
 <div class="page-container">
@@ -31,7 +32,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center ">
-					The following are paintings that are for sale, and can be viewed and purchased at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a><br/>
+					The following are paintings that are for sale, and can be viewed and purchased at the <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea.</a><br>
 				</p>
 			</div>
 		</div>
@@ -40,105 +41,11 @@
 <!-- bloc-available_works-announce END -->
 
 <!-- bloc-available_works-watercolours -->
-<div class="bloc l-bloc painting-text" id="bloc-available_works-watercolours">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="text-center mg-md ">Watercolour</h2>
-
-				<div class="divider-h">
-					<span class="divider divider-half"></span>
-				</div>
-				
-				<div class="row">
-					<div class="col-sm-4">
-						<a href="#" data-lightbox="img/Just_for_You.jpg" data-frame="dark-lb"><img src="img/Just_for_You.jpg" class="center-block portrait" alt="Just for You" /></a>
-						<h3 class=" text-center mg-sm">
-							Just for You
-						</h3>
-						<p class="text-center">
-							11" x 15", framed<br/>
-							$350
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<a href="#" data-lightbox="img/Bouquet_in_Blue.jpg" data-frame="dark-lb"><img src="img/Bouquet_in_Blue.jpg" class="center-block portrait" alt="Bouquet in Blue" /></a>
-						<h3 class=" text-center mg-sm">
-							Bouquet in Blue
-						</h3>
-						<p class="text-center">
-							11" x 14"<br/>
-							Watercolour on paper, framed<br />
-							$195
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<a href="#" data-lightbox="img/Emergence.jpg" data-frame="dark-lb"><img src="img/Emergence.jpg" class="center-block portrait" alt="Emergence" /></a>
-						<h3 class=" text-center mg-sm">
-							Emergence
-						</h3>
-						<p class=" text-center">
-							16" x 20", framed<br />$325
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<?php generate_paintings("watercolour", "paintings/available_watercolours.csv", $curpage[0], "accent-bg");?>
 <!-- bloc-available_works-watercolours END -->
 
 <!-- bloc-available_works-oils -->
-<div class="bloc bgc-accent-bg l-bloc painting-text" id="bloc-available_works-oils">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="text-center mg-md ">Oil</h2>
-
-				<div class="divider-h">
-					<span class="divider divider-half"></span>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-4">
-						<a data-frame="dark-lb" data-lightbox="img/Seaside_Retreat.jpg" href="#">
-							<img alt="Seaside Retreat" class="center-block landscape" src="img/Seaside_Retreat.jpg"/>
-						</a>
-						<h3 class="mg-sm  text-center">Seaside Retreat</h3>
-						<p class="text-center">
-							8" x 8" each<br/>
-							Oil on gallery canvas<br />
-							$160 each or 3 for $420
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<a href="#" data-lightbox="img/Fog_Lifting_in_the_Gatineaus.jpg" data-frame="dark-lb">
-							<img src="img/Fog_Lifting_in_the_Gatineaus.jpg" class="center-block portrait" alt="Fog Lifting in the Gatineaus" /></a>
-						<h3 class=" text-center mg-sm">
-							Fog Lifting in the Gatineaus
-						</h3>
-						<p class="text-center">
-							36" x 48"<br/>
-							Oil on gallery canvas<br />
-							$1800
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<a data-frame="dark-lb" data-lightbox="img/Mer_Bleue_.jpg" href="#">
-							<img alt="Mer Bleue" class="center-block landscape" src="img/Mer_Bleue_.jpg"/>
-						</a>
-						<h3 class="mg-sm  text-center">Mer Bleue</h3>
-						<p class="text-center">
-							24" x 24"<br/>
-							Oil on canvas<br />
-							$600
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<?php generate_paintings("oil", "paintings/available_oils.csv", $curpage[0]);?>
 <!-- bloc-available_works-oils END -->
 
 <?php include 'source/social_footer.php';?>

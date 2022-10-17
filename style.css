@@ -232,7 +232,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .mg-md{
 	margin-top:10px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
@@ -644,6 +644,9 @@ a.tc-white:hover{
 .bg-Huron-Shadows{
 	background-image:url("img/hires/Huron_Shadows_large.jpg");
 }
+.bg-First-Snow-II{
+	background-image:url("img/First_Snow_II.jpg");
+}
 
 /* Customizations */
 .painting-text h2{
@@ -684,7 +687,7 @@ img.portrait {
 		width: 145px;
 		height: 97px;
 	}
-	
+
 	img.portrait {
 		width: 145px;
 		height: 228px;
@@ -699,7 +702,7 @@ img.portrait {
 		max-height: 70vh; /*change to 70vh once overflow issue fixed*/
 		object-fit: cover;
 	}
-	
+
 	img.portrait {
 		max-width: 50vh;
 	}
@@ -710,38 +713,38 @@ img.portrait {
 		max-height: 70vh; /*change to 70vh once overflow issue fixed
 		object-fit: cover;
 	}*/
-	
+
 	.portrait, .landscape {
 		overflow: hidden;
 		position: relative;
 	}
 }
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024.9px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width: 767.9px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
-	
-    .page-container {	/* Prevent unwanted side scroll on mobile */  
+
+    .page-container {	/* Prevent unwanted side scroll on mobile */
         overflow-x: hidden;
         position:relative;
     }
     h1,h2,h3,h4,h5,h6,p{
-        padding-left:10px!important; 
-        padding-right:10px!important; 
+        padding-left:10px!important;
+        padding-right:10px!important;
     }
     .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
         -webkit-background-size: auto 200%;
         -moz-background-size: auto 200%;
         -o-background-size: auto 200%;
@@ -766,7 +769,7 @@ img.portrait {
 	   -o-transform:none;
 	   -moz-transform:none;
 	   transform:none;
-    }  
+    }
     .nav > li{
         margin-top: 0;
         border-bottom:1px solid rgba(0,0,0,.1);
@@ -778,7 +781,7 @@ img.portrait {
     .nav > li:hover{
         background:rgba(0,0,0,.08);
     }
-    
+
     .bloc-group .bloc{
          display:block;
          width:100%;
@@ -791,7 +794,7 @@ img.portrait {
         padding: 40px 0;
     }
     .bloc-sm,.bloc-md{
-        padding-left: 0; 
+        padding-left: 0;
         padding-right: 0;
     }
     .a-block{
@@ -825,7 +828,7 @@ img.portrait {
 		display:block;
 		overflow:visible;
 	}
-	
+
 	.mainmenu-floral, .mobile .mainmenu-floral
 	{
 		text-align:center;
