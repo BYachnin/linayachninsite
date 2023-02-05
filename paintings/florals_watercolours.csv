@@ -1,10 +1,12 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,FALSE,"19"" x 29""","Watercolour on paper, framed",650
-FALSE,col-sm-4,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
-FALSE,col-sm-4,img/Bouquet_in_Blue.jpg,portrait,Bouquet in Blue,FALSE,,,
-TRUE,col-sm-4,img/Draped_in_Blue.jpg,portrait,Draped in Blue,FALSE,,,
-FALSE,col-sm-4,img/Just_for_You.jpg,portrait,Just for You,FALSE,,,
-FALSE,col-sm-4,img/Bouquet_with_Tulips.jpg,portrait,Bouquet with Tulips,FALSE,,,
+TRUE,col-sm-6,img/Bouquet_Blanc.jpg,landscape,Bouquet Blanc,TRUE,16" x 20","Watercolour, framed",400
+FALSE,col-sm-6,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
+TRUE,col-sm-6,img/Red_Bouquet.jpg,portrait,Red Bouquet,FALSE,16" x 20","Watercolour, framed",400
+FALSE,col-sm-6,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,FALSE,"19"" x 29""","Watercolour on paper, framed",650
+TRUE,col-sm-3,img/Bouquet_in_Blue.jpg,portrait,Bouquet in Blue,FALSE,,,
+FALSE,col-sm-3,img/Draped_in_Blue.jpg,portrait,Draped in Blue,FALSE,,,
+FALSE,col-sm-3,img/Just_for_You.jpg,portrait,Just for You,FALSE,,,
+FALSE,col-sm-3,img/Bouquet_with_Tulips.jpg,portrait,Bouquet with Tulips,FALSE,,,
 TRUE,col-sm-3,img/Bouquet_II.jpg,portrait,Bouquet II,FALSE,,,
 FALSE,col-sm-3,img/Joyful_Distraction.jpg,portrait,Joyful Distraction,FALSE,,,
 FALSE,col-sm-3,img/Still_Life_with_Flowers.jpg,portrait,Still Life with Flowers,FALSE,,,
