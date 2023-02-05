@@ -18,6 +18,10 @@
 			'price' => $array[8]
 		);
 
+		if (count($array) > 9) {
+			$keyed_array['price_str'] = $array[9];
+		}
+
 		return $keyed_array;
 	}
 
@@ -28,7 +32,7 @@
 
 		//Open the CSV file for reading
 		if ($csvfile = fopen($csv, "r") ) {
-			//Skip the first line.
+			//Skip the first line.  TODO: Would be better to validate the row titles
 			$paint = fgets($csvfile);
 
 			//Loop over the rest of the file.
@@ -80,7 +84,9 @@
 					if ( $paint['media'] ) {
 						echo "\t\t\t\t\t\t\t" . $paint['media'] . "<br>\n";
 					}
-					if ( $paint['price'] ) {
+					if ( array_key_exists('price_str', $paint) && $paint['price_str'] ) {
+						echo "\t\t\t\t\t\t\t$" . $paint['price_str'] . "\n";
+					} elseif ( $paint['price'] ) {
 						echo "\t\t\t\t\t\t\t$" . $paint['price'] . "\n";
 					}
 
