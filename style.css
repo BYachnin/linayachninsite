@@ -31,11 +31,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	background-size: cover;
 	position:relative;
 }
-.bloc .container{
-	padding-left:0;
-	padding-right:0;
-}
-
 
 /* Sizes */
 
@@ -104,39 +99,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	background-attachment:fixed;
 }
 
-/* Light theme */
+/* Text Colour */
+h1,h2,h3,h4,h5,h6,p,label,.btn{
+	color:#333137;
+}
 
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a,
-.l-bloc .navbar-toggle .icon-bar{
+/* Links */
+
+a{
 	color:rgba(0,0,0,.6);
 }
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover{
+a:hover
+{
+	color:rgba(0,0,0,1);
+}
+a.nav
+{
 	color:rgba(0,0,0,1);
 }
 
@@ -210,7 +188,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	.nav-center .navbar-header{
 		width:100%;
 	}
-	.nav-center .navbar-header, .nav-center .navbar-brand, .nav-center .nav > li{
+	.nav-center .navbar-header, .nav-center, .nav-center .nav > li{
 		float: none;
 		display:inline-block;
 	}
@@ -267,15 +245,6 @@ img.mg-lg{
 /* Prevent ugly blue glow on chrome and safari */
 button{
 	outline: none!important;
-}
-
-.a-btn{
-	padding: 6px 10px 6px 0;
-	line-height: 1.42857143;
-	display:inline-block;
-}
-.text-center .a-btn{
-	padding: 6px 0;
 }
 
 /* = Icons
@@ -398,7 +367,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-position:left center;
 	display:block;
 	text-align:left;
-	color:#333137;
 	line-height: 1.5;
 }
 h1{
@@ -421,9 +389,6 @@ p{
 }
 .container{
 	max-width:1024px;
-}
-a{
-	color:rgba(51,49,55,0.9);
 }
 .subtitle{
 	letter-spacing:1px;

@@ -5,7 +5,7 @@
 	//Generate the text for a single list item.
 	function addListItem($pageName, $pageTitle) {
 		echo "						<li>\n";
-		echo '							<a href="' . $pageName . '">' . $pageTitle . "</a>\n";
+		echo '							<a class="nav" href="' . $pageName . '">' . $pageTitle . "</a>\n";
 		echo "						</li>\n";
 	}
 
@@ -36,7 +36,7 @@
 			<div class="navbar-header">
 				<a href="https://www.instagram.com/linayachnin/" class="icon-padding" target="_blank"><span class="fa fa-instagram icon-md pull-left"></span></a>
 				<a href="https://www.linkedin.com/in/lina-yachnin-54a9a28a" target="_blank"><span class="fa fa-linkedin icon-md pull-left"></span></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
