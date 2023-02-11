@@ -51,7 +51,7 @@
 <!-- bloc-navbar-mobile END -->
 
 <!-- bloc-navbar-desktop -->
-<div class="bloc hidden-xs hidden-sm bgc-main-bg l-bloc pad-top-nav nav" id="bloc-navbar-desktop">
+<div class="bloc hidden-xs hidden-sm bgc-main-bg pad-top-nav nav" id="bloc-navbar-desktop">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-4">
@@ -68,7 +68,7 @@
 <!-- bloc-navbar-desktop END -->
 
 <!-- bloc-navbar-tablet -->
-<div class="bloc hidden-xs hidden-lg hidden-md bgc-main-bg l-bloc nav" id="bloc-navbar-tablet">
+<div class="bloc hidden-xs hidden-lg hidden-md bgc-main-bg nav" id="bloc-navbar-tablet">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-6">
