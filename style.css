@@ -154,6 +154,19 @@ a.nav-text{
 	color: black;
 }
 
+/* Index Menu */
+.index-text-menu{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.index-text-menu > li{
+	position: relative;
+	display: inline-block;
+	padding: 1rem;
+	text-align: center;
+}
+
 /* = NavBar
 -------------------------------------------------------------- */
 
