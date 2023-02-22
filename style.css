@@ -129,6 +129,31 @@ a.nav
 	margin-right: auto;
 }
 
+/* Desktop Navbar */
+.nav-grid{
+	display: grid;
+	grid-template-columns: 1fr 10px 3fr;
+	padding: 10px 50px;
+}
+.nav-sig-container{
+	grid-column: 1 / 2;
+	justify-self: start;
+	align-self: center;
+}
+img.nav-sig{
+	max-height: 25rem;
+	max-width: 100%;
+}
+.nav-menu{
+	grid-column: 3 / 3;
+	justify-self: end;
+	align-self: center;
+	font-size: 1.5vw;
+}
+a.nav-text{
+	color: black;
+}
+
 /* = NavBar
 -------------------------------------------------------------- */
 

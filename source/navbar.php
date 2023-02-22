@@ -5,7 +5,7 @@
 	//Generate the text for a single list item.
 	function addListItem($pageName, $pageTitle) {
 		echo "						<li>\n";
-		echo '							<a class="nav" href="' . $pageName . '">' . $pageTitle . "</a>\n";
+		echo '							<a class="nav-text" href="' . $pageName . '">' . $pageTitle . "</a>\n";
 		echo "						</li>\n";
 	}
 
@@ -51,36 +51,17 @@
 <!-- bloc-navbar-mobile END -->
 
 <!-- bloc-navbar-desktop -->
-<div class="bloc hidden-xs hidden-sm bgc-main-bg pad-top-nav nav" id="bloc-navbar-desktop">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-4">
-				<a href="index"><img src="img/short-sig.jpg" class="img-responsive" width="254" alt="Lina Yachnin"></a>
-			</div>
-			<div class="col-sm-8">
-				<ul class="list-unstyled list-horizontal-layout list-container">
+<div class="hidden-xs bgc-main-bg pad-top-nav" id="bloc-navbar-desktop">
+	<div class="nav-grid">
+		<div class="nav-sig-container">
+			<a href="index"><img src="img/short-sig.jpg" class="nav-sig" alt="Lina Yachnin"></a>
+		</div>
+		<div class="nav-menu">
+			<ul class="list-unstyled list-horizontal-layout">
 <?php generatePageList($pageList, $curpage);?>
-				</ul>
-			</div>
+			</ul>
 		</div>
 	</div>
 </div>
 <!-- bloc-navbar-desktop END -->
-
-<!-- bloc-navbar-tablet -->
-<div class="bloc hidden-xs hidden-lg hidden-md bgc-main-bg nav" id="bloc-navbar-tablet">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-6">
-				<a href="index"><img src="img/short-sig.jpg" class="img-responsive center-block" width="261" alt="Lina Yachnin"></a>
-			</div>
-			<div class="col-sm-6">
-				<ul class="list-unstyled list-horizontal-layout">
-<?php generatePageList($pageList, $curpage);?>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-navbar-tablet END -->
 <!-- END OF navbar.php -->
