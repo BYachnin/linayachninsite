@@ -1,7 +1,6 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
-TRUE,col-sm-3,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",TRUE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
-FALSE,col-sm-3,img/Sunset_Ski.jpg,landscape,Sunset Ski,TRUE,"24"" x 30""",Oil on gallery canvas,875
-FALSE,col-sm-3,img/Dining_Out.jpg,landscape,Dining Out,TRUE,"27"" x 40""","Oil on gallery canvas, framed",1250
-FALSE,col-sm-3,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,TRUE,"30"" x 40""",Oil on gallery canvas,1350
+TRUE,col-sm-4,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",TRUE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
+FALSE,col-sm-4,img/Dining_Out.jpg,landscape,Dining Out,TRUE,"27"" x 40""","Oil on gallery canvas, framed",1250
+FALSE,col-sm-4,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,TRUE,"30"" x 40""",Oil on gallery canvas,1350
 TRUE,col-sm-6,img/Night_Out.jpg,portrait,Night Out,TRUE,"33"" x 33""",Oil on canvas,1050
 FALSE,col-sm-6,img/The_Skier.jpg,portrait,The Skier,TRUE,"12"" x 12""",Oil on gallery canvas,250
