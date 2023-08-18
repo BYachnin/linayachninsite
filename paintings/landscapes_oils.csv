@@ -1,10 +1,10 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
-TRUE,col-sm-3,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",TRUE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
-FALSE,col-sm-3,img/The_Skier.jpg,landscape,The Skier,TRUE,"12"" x 12""",Oil on gallery canvas,250,
-FALSE,col-sm-3,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,TRUE,"30"" x 40""",Oil on gallery canvas,1350,
-FALSE,col-sm-3,img/Colourful_Reflections_III.jpg,landscape,Colourful Reflections III,TRUE,"16"" x 20""","Oil on gallery canvas, framed",600,
-TRUE,col-sm-6,img/Through_the_Forest.jpg,landscape,Through the Forest,TRUE,"14"" x 18""",Oil on gallery canvas,500,
-FALSE,col-sm-6,img/Sunset_Ski.jpg,landscape,Sunset Ski,FALSE,"24"" x 30""",Oil on gallery canvas,875,
+TRUE,col-sm-4,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",TRUE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
+FALSE,col-sm-4,img/The_Skier.jpg,landscape,The Skier,TRUE,"12"" x 12""",Oil on gallery canvas,250,
+FALSE,col-sm-4,img/Colourful_Reflections_III.jpg,landscape,Colourful Reflections III,TRUE,"16"" x 20""","Oil on gallery canvas, framed",600,
+TRUE,col-sm-4,img/Through_the_Forest.jpg,landscape,Through the Forest,TRUE,"14"" x 18""",Oil on gallery canvas,500,
+FALSE,col-sm-4,img/Sunset_Ski.jpg,landscape,Sunset Ski,FALSE,"24"" x 30""",Oil on gallery canvas,875,
+FALSE,col-sm-4,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,FALSE,"30"" x 40""",Oil on gallery canvas,1350,
 TRUE,col-sm-3,img/Rocky_Shore.jpg,portrait,Rocky Shore,TRUE,"30"" x 36""",Oil on gallery canvas,1200,
 FALSE,col-sm-3,img/Connected.jpg,portrait,Connected,TRUE,"40"" x 40""","Oil on gallery canvas, framed",1800,
 FALSE,col-sm-3,img/Colourful_Reflections_II.jpg,portrait,Colourful Reflections II,FALSE,"18"" x 36""",Oil on gallery canvas,700,
