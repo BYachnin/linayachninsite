@@ -1,10 +1,11 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
+TRUE,col-sm-6,img/Breathtaking_View.jpg,landscape,Breathtaking View,TRUE,"27"" x 51""","Oil on gallery canvas, framed",1500,
+FALSE,col-sm-6,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,
 TRUE,col-sm-6,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
-FALSE,col-sm-6,img/Hidden_Lake.jpg,portrait,Hidden Lake,TRUE,"23"" x 23""","Oil on gallery canvas, framed",600,
-TRUE,col-sm-3,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""",Oil on gallery canvas,975,
-FALSE,col-sm-3,img/Windswept_II.jpg,landscape,Windswept II,FALSE,"30"" x 40""",Oil on gallery canvas,1300,
-FALSE,col-sm-3,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",FALSE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
-FALSE,col-sm-3,img/Through_the_Forest.jpg,landscape,Through the Forest,FALSE,"14"" x 18""",Oil on gallery canvas,500,
+FALSE,col-sm-6,img/Hidden_Lake.jpg,portrait,Hidden Lake,FALSE,"23"" x 23""","Oil on gallery canvas, framed",600,
+TRUE,col-sm-4,img/Windswept_II.jpg,landscape,Windswept II,FALSE,"30"" x 40""",Oil on gallery canvas,1300,
+FALSE,col-sm-4,img/Seaside_House_I_II_III.jpg,landscape,"Seaside House I, II, and III",FALSE,"8"" x 8"" each",Oil on gallery canvas,400,150 each or 3 for $400
+FALSE,col-sm-4,img/Through_the_Forest.jpg,landscape,Through the Forest,FALSE,"14"" x 18""",Oil on gallery canvas,500,
 TRUE,col-sm-3,img/Sunset_Ski.jpg,landscape,Sunset Ski,FALSE,"24"" x 30""",Oil on gallery canvas,875,
 FALSE,col-sm-3,img/Colourful_Reflections_I.jpg,landscape,Colourful Reflections I,FALSE,"30"" x 40""",Oil on gallery canvas,1350,
 FALSE,col-sm-3,img/Colourful_Reflections_III.jpg,landscape,Colourful Reflections III,FALSE,"16"" x 20""","Oil on gallery canvas, framed",600,
