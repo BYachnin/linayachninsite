@@ -1,4 +1,3 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
-TRUE,col-sm-4,img/Breathtaking_View.jpg,landscape,Breathtaking View,TRUE,"27"" x 51""","Oil on gallery canvas, framed",1500,
-FALSE,col-sm-4,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
-FALSE,col-sm-4,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,
+TRUE,col-sm-6,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
+FALSE,col-sm-6,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,
