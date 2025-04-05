@@ -1,5 +1,11 @@
 <?php include 'globals.php';?>
 <?php include 'source/builder_functions.php';?>
+<?php
+$curpage = basename($_SERVER['PHP_SELF'], '.phtml');
+if ($curpage == "index") {
+	$curpage = "";
+}
+?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133713429-1"></script>
@@ -17,6 +23,7 @@
 
 	<link rel="shortcut icon" type="image/png" href="favicon.ico">
 
+	<link rel="canonical" href="https://www.linayachnin.com/<?php echo $curpage?>">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
