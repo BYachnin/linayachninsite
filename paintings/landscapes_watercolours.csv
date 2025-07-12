@@ -2,6 +2,8 @@ New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
 TRUE,col-sm-4,img/Windswept.jpg,landscape,Windswept,TRUE,"20"" x 24""","Watercolour, framed",550
 FALSE,col-sm-4,img/Coastal_View.jpg,landscape,Coastal View,FALSE,,,
 FALSE,col-sm-4,img/Coastal_Storm_II.jpg,landscape,Coastal Storm II,FALSE,,,
+TRUE,col-sm-6,img/Wild_and_Rugged_l.jpg,portrait,Wild and Rugged l,FALSE,,,
+FALSE,col-sm-6,img/Wild_and_Rugged_Il.jpg,portrait,Wild and Rugged lI,FALSE,,,
 TRUE,col-sm-4,img/Rocky_Terrain.jpg,portrait,Rocky Terrain,FALSE,"20"" x 24""",Watercolour / Watercolour collage,550
 FALSE,col-sm-4,img/Autumn_Sundown.jpg,portrait,Autumn Sundown,FALSE,"18"" x 22""","Watercolour, framed",550
 FALSE,col-sm-4,img/Piece_of_Paradise.jpg,portrait,Piece of Paradise,FALSE,,,
