@@ -1,19 +1,19 @@
 <?php
 	//Announcement flags
-	$announcement = false; // Add announcement to the homepage.
+	$announcement = true; // Add announcement to the homepage.
 	$announcement_text =
 		'Please join Lina and the other Galerie Old Chelsea artists for a group exhibition, "The Wonders of Winter," from January 27 to February 13.  For more information, visit <a href="https://www.galerieoldchelsea.ca/exhibitions" class="text-center" style="display: inline">Galerie Old Chelsea</a>';
 	$announcement_text = "";  // Add to clear the announcement text from main page
 	$hide_announce_img = false; // Include a poster type image?
-	$announcement_img = "img/Des_gens_et_des_lieux_2022_Poster.jpg"; // Path to poster type image
+	$announcement_img = "img/Connecte_Poster_2025.jpg"; // Path to poster type image
 
 	//Exhibition page related flags
-	$exhibition = false;	//Use special exhibition text
-	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
-	$ex_title = "Des gens et des lieux";		//The title of the Exhibitions page.
+	$exhibition = true;	//Use special exhibition text
+	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
+	$ex_title = "Connecté";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-First-Snow-II";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text =
-	'My upcoming show, <i>Des gens et des lieux</i>, will take place from October 7 - 26 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br><i>Des gens et des lieux</i> is a show about memorable places. Some are far. Some are close to home, but always close to the heart. This work crystallizes memories into images. Travels, hikes and outdoor activities influence my work. The use of colour is slightly exaggerated to draw attention to our beautiful surroundings. I work both in oils and watercolour. I enjoy the two mediums because they allow for a very different expression of my experiences.';
+	'My upcoming show, <i>Connecté</i>, will take place from October 16 - November 2 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br><i>';
 	// $upcoming_text = $announcement_text;
 
 
