@@ -1,4 +1,6 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Irish_Corner.jpg,landscape,Coin du Village,TRUE,"24"" x 30""","Watercolour, framed",850
-FALSE,col-sm-4,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
-FALSE,col-sm-4,img/Windswept.jpg,landscape,Windswept,TRUE,"20"" x 24""","Watercolour, framed",550
+TRUE,col-sm-3,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,TRUE,"28"" x 36""","Watercolour, framed",975
+FALSE,col-sm-3,img/Irish_Corner.jpg,landscape,Coin du Village,TRUE,"24"" x 30""","Watercolour, framed",850
+FALSE,col-sm-3,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
+FALSE,col-sm-3,img/Windswept.jpg,landscape,Windswept,TRUE,"20"" x 24""","Watercolour, framed",550
+TRUE,col-sm-12,img/Celebration.jpg,portrait,Celebration,TRUE,"20"" x 24""","Watercolour Collage, framed",500

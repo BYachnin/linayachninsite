@@ -9,11 +9,11 @@
 
 	//Exhibition page related flags
 	$exhibition = true;	//Use special exhibition text
-	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
+	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
 	$ex_title = "Connecté";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-First-Snow-II";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text =
-	'My upcoming show, <i>Connecté</i>, will take place from October 16 - November 2 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br><i>';
+	'My upcoming show, <i>Connecté</i>, will take place from October 16 - November 2 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br>';
 	// $upcoming_text = $announcement_text;
 
 
