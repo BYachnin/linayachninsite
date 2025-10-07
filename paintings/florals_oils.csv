@@ -1,9 +1,10 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
+TRUE,col-sm-6,img/Red_Tulips_II.jpg,portrait,Red Tulips II,TRUE,"22"" x 22""","Oil on gallery canvas, framed",700
+FALSE,col-sm-6,img/Poppies.jpg,portrait,Poppies,FALSE,,,
 TRUE,col-sm-3,img/Daffodils_in_the_Wind.jpg,landscape,Daffodils in the Wind,FALSE,,,
 FALSE,col-sm-3,img/Tulips.jpg,landscape,Tulips,FALSE,,,
 FALSE,col-sm-3,img/Bougainvillea.jpg,landscape,Bougainvillea,FALSE,,,
 FALSE,col-sm-3,img/Grasses.jpg,landscape,Grasses,FALSE,,,
-TRUE,col-sm-3,img/Daffodils.jpg,landscape,Daffodils,FALSE,,,
-FALSE,col-sm-3,img/Poppies.jpg,portrait,Poppies,FALSE,,,
-FALSE,col-sm-3,img/Wildflowers.jpg,landscape,Wildflowers,FALSE,,,
-FALSE,col-sm-3,img/Field_of_Irises.jpg,landscape,Field of Irises,FALSE,,,
+TRUE,col-sm-4,img/Daffodils.jpg,landscape,Daffodils,FALSE,,,
+FALSE,col-sm-4,img/Wildflowers.jpg,landscape,Wildflowers,FALSE,,,
+FALSE,col-sm-4,img/Field_of_Irises.jpg,landscape,Field of Irises,FALSE,,,

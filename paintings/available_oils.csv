@@ -1,3 +1,9 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
-TRUE,col-sm-6,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
-FALSE,col-sm-6,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,
+TRUE,col-sm-3,img/Three_Birches.jpg,portrait,Three Birches,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200,
+FALSE,col-sm-3,img/Chelsea_Morning_II.jpg,portrait,Chelsea Morning II,TRUE,"20"" x 50""",Oil on gallery canvas,1200,
+FALSE,col-sm-3,img/Red_Tulips_II.jpg,portrait,Red Tulips II,TRUE,"22"" x 22""","Oil on gallery canvas, framed",700,
+FALSE,col-sm-3,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
+TRUE,col-sm-3,img/Breathtaking.jpg,landscape,Breathtaking,TRUE,"32"" x 50""","Oil on gallery canvas, framed",1800,
+FALSE,col-sm-3,img/A_Gatineau_Moment.jpg,landscape,A Gatineau Moment,TRUE,"32"" x 38""","Oil on gallery canvas, framed",1400,
+FALSE,col-sm-3,img/Bright_Morning.jpg,landscape,Bright Morning,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200,
+FALSE,col-sm-3,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,

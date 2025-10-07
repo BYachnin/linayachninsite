@@ -1,5 +1,3 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Evening_in_Spain.jpg,landscape,Evening in Spain,FALSE,"24"" x 30""","Watercolour, framed",875
-FALSE,col-sm-4,img/Irish_Corner.jpg,landscape,Irish Corner,FALSE,"24"" x 30""","Watercolour, framed",875
-FALSE,col-sm-4,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
-TRUE,col-sm-12,img/Evening_Out_II.jpg,portrait,Evening Out II,FALSE,"24"" x 30""","Watercolour, framed",875
+TRUE,col-sm-6,img/Celebration.jpg,portrait,Celebration,TRUE,"20"" x 24""","Watercolour Collage, framed",500
+FALSE,col-sm-6,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,TRUE,"28"" x 36""","Watercolour, framed",975
