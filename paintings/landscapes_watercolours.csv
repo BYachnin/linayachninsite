@@ -1,6 +1,6 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-3,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,TRUE,"28"" x 36""","Watercolour, framed",975
-FALSE,col-sm-3,img/Windswept.jpg,landscape,Windswept,TRUE,"20"" x 24""","Watercolour, framed",550
+TRUE,col-sm-3,img/Windswept.jpg,landscape,Windswept,TRUE,"20"" x 24""","Watercolour, framed",550
+FALSE,col-sm-3,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,FALSE,"28"" x 36""","Watercolour, framed",975
 FALSE,col-sm-3,img/Coastal_View.jpg,landscape,Coastal View,FALSE,,,
 FALSE,col-sm-3,img/Coastal_Storm_II.jpg,landscape,Coastal Storm II,FALSE,,,
 TRUE,col-sm-6,img/Wild_and_Rugged_l.jpg,portrait,Wild and Rugged l,FALSE,,,

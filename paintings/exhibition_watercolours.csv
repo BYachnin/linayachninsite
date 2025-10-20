@@ -1,3 +1,3 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-6,img/Celebration.jpg,portrait,Celebration,TRUE,"20"" x 24""","Watercolour Collage, framed",500
-FALSE,col-sm-6,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,TRUE,"28"" x 36""","Watercolour, framed",975
+TRUE,col-sm-6,img/Celebration.jpg,portrait,Celebration,FALSE,"20"" x 24""","Watercolour Collage, framed",500
+FALSE,col-sm-6,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,FALSE,"28"" x 36""","Watercolour, framed",975
