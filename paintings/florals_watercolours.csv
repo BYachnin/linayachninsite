@@ -1,13 +1,12 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-6,img/Autumn_Colours_a.jpg,landscape,Autumn Colours,TRUE,"28"" x 36""","Watercolour, framed",975
-FALSE,col-sm-6,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
-TRUE,col-sm-3,img/Celebration.jpg,portrait,Celebration,TRUE,"20"" x 24""","Watercolour Collage, framed",500
+TRUE,col-sm-3,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
+FALSE,col-sm-3,img/Thinking_of_Spring.jpg,landscape,Thinking of Spring,FALSE,"16"" x 20""","Watercolour, framed",400
+FALSE,col-sm-3,img/Bouquet_Blanc.jpg,landscape,Bouquet Blanc,FALSE,"16"" x 20""","Watercolour, framed",400
+FALSE,col-sm-3,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
+TRUE,col-sm-3,img/Celebration.jpg,portrait,Celebration,FALSE,"20"" x 24""","Watercolour Collage, framed",500
 FALSE,col-sm-3,img/Bouquet__2.jpg,portrait,Bouquet,FALSE,"9"" x 12""","Aquarelle, framed",125
 FALSE,col-sm-3,img/Simply_Red.jpg,portrait,Simply Red,FALSE,"10"" x 12""","Watercolour, framed",125
 FALSE,col-sm-3,img/Tulip Bouquet__2.jpg,portrait,Tulip Bouquet,FALSE,"8"" x 10""","Watercolour, framed",95
-TRUE,col-sm-4,img/Thinking_of_Spring.jpg,landscape,Thinking of Spring,FALSE,"16"" x 20""","Watercolour, framed",400
-FALSE,col-sm-4,img/Bouquet_Blanc.jpg,landscape,Bouquet Blanc,FALSE,"16"" x 20""","Watercolour, framed",400
-FALSE,col-sm-4,img/Thinking_of_You.jpg,landscape,Thinking of You,FALSE,,"Watercolour, framed",375
 TRUE,col-sm-4,img/Bouquet_Bleu.jpg,portrait,Bouquet Bleu,FALSE,"16"" x 20""","Watercolour, framed",400
 FALSE,col-sm-4,img/Red_Bouquet.jpg,portrait,Red Bouquet,FALSE,"16"" x 20""","Watercolour, framed",400
 FALSE,col-sm-4,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,FALSE,"19"" x 29""","Watercolour on paper, framed",650
