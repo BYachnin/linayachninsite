@@ -13,7 +13,7 @@
 	$ex_title = "Connecté";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-First-Snow-II";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text =
-	'My upcoming show, <i>Connecté</i>, will take place from October 16 - November 2 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br>';
+	'My current show, <i>Connecté</i>, is taking place from October 16 - November 2 at <a href="http://www.galerieoldchelsea.ca" class="text-center" style="display: inline">Galerie Old Chelsea</a>.<br><br>The show was previewed in <i>The Low Down</i> earlier this month.<br><br><img src="img/Connecte_Article.jpg" alt="Artist\'s Trailblazing Leads to Connecté" class="img" height="700vh" width="auto"/>';
 	// $upcoming_text = $announcement_text;
 
 
