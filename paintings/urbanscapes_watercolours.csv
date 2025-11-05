@@ -1,5 +1,5 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-12,img/Irish_Corner.jpg,landscape,Coin du Village,TRUE,"24"" x 30""","Watercolour, framed",850
+TRUE,col-sm-12,img/Coin_du_Village.jpg,landscape,Coin du Village,FALSE,"24"" x 30""","Watercolour, framed",850
 TRUE,col-sm-6,img/Evening_Out_II.jpg,portrait,Evening Out II,FALSE,"24"" x 30""","Watercolour, framed",875
 FALSE,col-sm-6,img/Florence.jpg,portrait,Florence,FALSE,,,
 TRUE,col-sm-3,img/Evening_in_Spain.jpg,landscape,Evening in Spain,FALSE,"24"" x 30""","Watercolour, framed",875
