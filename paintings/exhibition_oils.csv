@@ -1,10 +1,10 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Three_Birches.jpg,portrait,Three Birches,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200
-FALSE,col-sm-4,img/Chelsea_Morning_II.jpg,portrait,Chelsea Morning II,TRUE,"20"" x 50""",Oil on gallery canvas,1200
-FALSE,col-sm-4,img/Luminous.jpg,portrait,Luminous,TRUE,"26"" x 50""",Oil on gallery canvas,1375
-TRUE,col-sm-3,img/Evening_Reflection.jpg,landscape,Evening Reflection,TRUE,"20"" x 50""",Oil on gallery canvas,1200
-FALSE,col-sm-3,img/Bright_Morning.jpg,landscape,Bright Morning,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200
+TRUE,col-sm-6,img/Three_Birches.jpg,portrait,Three Birches,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200
+FALSE,col-sm-6,img/Chelsea_Morning_II.jpg,portrait,Chelsea Morning II,TRUE,"20"" x 50""",Oil on gallery canvas,1200
+TRUE,col-sm-3,img/Bright_Morning.jpg,landscape,Bright Morning,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200
+FALSE,col-sm-3,img/Evening_Reflection.jpg,landscape,Evening Reflection,FALSE,"20"" x 50""",Oil on gallery canvas,1200
 FALSE,col-sm-3,img/A_Gatineau_Moment.jpg,landscape,A Gatineau Moment,FALSE,"32"" x 38""","Oil on gallery canvas, framed",1400
 FALSE,col-sm-3,img/Breathtaking.jpg,landscape,Breathtaking,FALSE,"32"" x 50""","Oil on gallery canvas, framed",1800
-TRUE,col-sm-6,img/Red_Tulips_II.jpg,portrait,Red Tulips II,FALSE,"22"" x 22""","Oil on gallery canvas, framed",700
-FALSE,col-sm-6,img/Standing_Tall.jpg,portrait,Standing Tall,FALSE,,,
+TRUE,col-sm-4,img/Red_Tulips_II.jpg,portrait,Red Tulips II,FALSE,"22"" x 22""","Oil on gallery canvas, framed",700
+FALSE,col-sm-4,img/Standing_Tall.jpg,portrait,Standing Tall,FALSE,,,
+FALSE,col-sm-4,img/Luminous.jpg,portrait,Luminous,FALSE,"26"" x 50""",Oil on gallery canvas,1375

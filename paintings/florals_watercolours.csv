@@ -1,4 +1,5 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
+TRUE,col-sm-12,img/Joyful.jpg,portrait,Joyful,TRUE,"12"" x 18""",Watercolour Collage,250
 TRUE,col-sm-3,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
 FALSE,col-sm-3,img/Thinking_of_Spring.jpg,landscape,Thinking of Spring,FALSE,"16"" x 20""","Watercolour, framed",400
 FALSE,col-sm-3,img/Bouquet_Blanc.jpg,landscape,Bouquet Blanc,FALSE,"16"" x 20""","Watercolour, framed",400
@@ -7,9 +8,10 @@ TRUE,col-sm-3,img/Celebration.jpg,portrait,Celebration,FALSE,"20"" x 24""","Wate
 FALSE,col-sm-3,img/Bouquet__2.jpg,portrait,Bouquet,FALSE,"9"" x 12""","Aquarelle, framed",125
 FALSE,col-sm-3,img/Simply_Red.jpg,portrait,Simply Red,FALSE,"10"" x 12""","Watercolour, framed",125
 FALSE,col-sm-3,img/Tulip Bouquet__2.jpg,portrait,Tulip Bouquet,FALSE,"8"" x 10""","Watercolour, framed",95
-TRUE,col-sm-4,img/Bouquet_Bleu.jpg,portrait,Bouquet Bleu,FALSE,"16"" x 20""","Watercolour, framed",400
-FALSE,col-sm-4,img/Red_Bouquet.jpg,portrait,Red Bouquet,FALSE,"16"" x 20""","Watercolour, framed",400
-FALSE,col-sm-4,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,FALSE,"19"" x 29""","Watercolour on paper, framed",650
+TRUE,col-sm-3,img/White_Bouquet_II.jpg,portrait,White Bouquet II,FALSE,,,
+FALSE,col-sm-3,img/Bouquet_Bleu.jpg,portrait,Bouquet Bleu,FALSE,"16"" x 20""","Watercolour, framed",400
+FALSE,col-sm-3,img/Red_Bouquet.jpg,portrait,Red Bouquet,FALSE,"16"" x 20""","Watercolour, framed",400
+FALSE,col-sm-3,img/Draped_in_Blue_II.jpg,portrait,Draped in Blue II,FALSE,"19"" x 29""","Watercolour on paper, framed",650
 TRUE,col-sm-3,img/Bouquet_in_Blue.jpg,portrait,Bouquet in Blue,FALSE,,,
 FALSE,col-sm-3,img/Draped_in_Blue.jpg,portrait,Draped in Blue,FALSE,,,
 FALSE,col-sm-3,img/Just_for_You.jpg,portrait,Just for You,FALSE,,,
