@@ -1,5 +1,4 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
 TRUE,col-sm-12,img/Red_Bouquet_II.jpg,landscape,Red Bouquet II,TRUE,"18"" x 22""","Watercolour, framed",550
-TRUE,col-sm-4,img/Bright_Moment.jpg,portrait,Bright Moment,TRUE,"14"" x 17""","Watercolour Collage, framed",250
-FALSE,col-sm-4,img/Joyful.jpg,portrait,Joyful,TRUE,"12"" x 18""",Watercolour Collage,250
-FALSE,col-sm-4,img/Bouquet_Pour_Vous.jpg,portrait,Bouquet Pour Vous,TRUE,"20"" x 24""",Watercolour Collage,500
+TRUE,col-sm-6,img/Bright_Moment.jpg,portrait,Bright Moment,TRUE,"14"" x 17""","Watercolour Collage, framed",250
+FALSE,col-sm-6,img/Bouquet_Pour_Vous.jpg,portrait,Bouquet Pour Vous,TRUE,"20"" x 24""",Watercolour Collage,500

@@ -1,6 +1,5 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price,Price_str
-TRUE,col-sm-4,img/Three_Birches.jpg,portrait,Three Birches,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200,
-FALSE,col-sm-4,img/Chelsea_Morning_II.jpg,portrait,Chelsea Morning II,TRUE,"20"" x 50""",Oil on gallery canvas,1200,
-FALSE,col-sm-4,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
+TRUE,col-sm-6,img/Chelsea_Morning_II.jpg,portrait,Chelsea Morning II,TRUE,"20"" x 50""",Oil on gallery canvas,1200,
+FALSE,col-sm-6,img/A_Blustery_Hike.jpg,portrait,A Blustery Hike,TRUE,"36"" x 48""",Oil on gallery canvas,2100,
 TRUE,col-sm-6,img/Bright_Morning.jpg,landscape,Bright Morning,TRUE,"20"" x 50""","Oil on gallery canvas, framed",1200,
 FALSE,col-sm-6,img/A_Beautiful_Day.jpg,landscape,A Beautiful Day,TRUE,"30"" x 30""","Oil on gallery canvas, framed",1100,
