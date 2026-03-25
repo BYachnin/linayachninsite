@@ -1,6 +1,6 @@
 <?php
 	//Announcement flags
-	$announcement = true; // Add announcement to the homepage.
+	$announcement = false; // Add announcement to the homepage.
 	$announcement_text =
 		'Please join Lina and the other Galerie Old Chelsea artists for a group exhibition, "The Wonders of Winter," from January 27 to February 13.  For more information, visit <a href="https://www.galerieoldchelsea.ca/exhibitions" class="text-center" style="display: inline">Galerie Old Chelsea</a>';
 	$announcement_text = "";  // Add to clear the announcement text from main page
@@ -8,8 +8,8 @@
 	$announcement_img = "img/Connecte_Poster_2025.jpg"; // Path to poster type image
 
 	//Exhibition page related flags
-	$exhibition = true;	//Use special exhibition text
-	$exhibition_paintings = true;	//Include the paintings on the exhibition page.
+	$exhibition = false;	//Use special exhibition text
+	$exhibition_paintings = false;	//Include the paintings on the exhibition page.
 	$ex_title = "Connecté";		//The title of the Exhibitions page.
 	$ex_banner_style = "bg-First-Snow-II";	//The background picture style for the exhibitions.  Must update CSS!
 	$upcoming_text =
