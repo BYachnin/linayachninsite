@@ -1,5 +1,5 @@
 New line,Div Class,Image Path,Img Class,Title,Available?,Dimensions,Media,Price
-TRUE,col-sm-4,img/Bright_Moment.jpg,portrait,Bright Moment,TRUE,"14"" x 17""","Watercolour Collage, framed",250
+TRUE,col-sm-4,img/Bright_Moment.jpg,portrait,Bright Moment,FALSE,"14"" x 17""","Watercolour Collage, framed",250
 FALSE,col-sm-4,img/Wild_and_Rugged_l.jpg,portrait,Wild and Rugged l,FALSE,,,
 FALSE,col-sm-4,img/Wild_and_Rugged_Il.jpg,portrait,Wild and Rugged lI,FALSE,,,
 TRUE,col-sm-12,img/Sundown_II.jpg,landscape,Sundown II,FALSE,"25"" x 38""","Watercolour Collage, framed",875
